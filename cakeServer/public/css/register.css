@@ -1,0 +1,68 @@
+#register {
+  width: 80%;
+  margin: 48px auto 0;
+  font-size: 14px;
+}
+#register .register-title {
+  font-size: 15px;
+  color: #442818;
+  text-align: center;
+  padding-top: 15px;
+}
+#register ul {
+  margin-top: 25px;
+  font-size: 14px;
+  list-style: none;
+}
+#register ul li {
+  width: 100%;
+  height: 47px;
+  line-height: 46px;
+}
+#register ul li input {
+  width: 100%;
+  border: none;
+  height: 25px;
+  padding: 10px 0;
+  line-height: 25px;
+  outline: none;
+  font-size: 14px;
+  border-bottom: 1px solid #D5D5D5;
+}
+#register ul li input::-webkit-input-placeholder {
+  color: #cfb99f;
+  font-size: 14px;
+}
+#register ul .register-last {
+  font-size: 12px;
+  color: red;
+  visibility: hidden;
+}
+#register .register-Det {
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  background: #442818;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+}
+.modalCont {
+  z-index: 99998;
+  position: fixed;
+  transform: translate(-50%);
+  top: 50%;
+  width: 70%;
+  left: 50%;
+  padding: 0 10px;
+  height: 40px;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modalCont p {
+  font-size: 14px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+}

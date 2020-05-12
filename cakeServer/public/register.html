@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta name="viewport"
+    content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+  <title>蛋糕官网_24小时蛋糕网上订购_5小时新鲜送达！</title>
+  <link rel="stylesheet" href="./font/iconfont.css">
+  <link rel="stylesheet" href="./public/header.css">
+  <link rel="stylesheet" href="./css/register.css">
+
+  <script src="./js/flexible.js"></script>
+  <script src="./js/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+  <!-- 顶部 -->
+  <div class="header">
+    <div class="headerBox">
+      <div class="destination"><i class="iconfont icon-guanbi" id="myOptionC" style="font-size: 25px;"></i><span> <i
+            class="iconfont icon-dingwei"></i>
+          上海</span> </div>
+      <div class="homePage"><a href="index.html"><img src="./img/nav.png" alt=""></img></div>
+      <div class="shopping">
+        <a href="user.html"><i class="iconfont icon-duihua"></i></a>
+        <a href="shopCar.html"><i class="iconfont icon-ziyuan"></i> <span id="cartNum"></span></a>
+      </div>
+    </div>
+  </div>
+  <div id="register">
+    <p class="register-title">用户注册</p>
+    <ul>
+      <li><input type="text" placeholder="输入用户名：5-8位英文字母" id="account"></li>
+      <li><input type="text" placeholder="输入昵称" id="name"></li>
+      <li><input type="password" placeholder="密码：6～12字符，只能是数字和字母" id="password1"></li>
+      <li><input type="password" placeholder="确认密码" id="password2"></li>
+      <li class="register-last">请输入正确的</li>
+    </ul>
+    <p class="register-Det">注册</p>
+  </div>
+  <!-- 注册成功模态框 -->
+  <div class="modalCont">
+    <p>注册成功 马上为你跳转登陆页面</p>
+  </div>
+  <script src="./js/user.js"></script>
+  <script src="./js/cartNumJuage.js"></script>
+  <script src="./js/register.js"></script>
+  <script>
+    cartNumJuage();
+    $('#myOptionC').on('click', function () { //点击退回页面按钮
+      window.history.go(-1);
+    });
+  </script>
+</body>
+
+</html>

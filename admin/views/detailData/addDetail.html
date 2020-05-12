@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+  <%- include ../common/header.html%>
+
+<body class="header-fixed">
+  <div class="page-wrapper">
+    <%- include ../common/top.html%>
+
+    <div class="main-container">
+        <%- include ../common/left.html%>
+        <div class="content">
+          <div class="tables">
+            <h3 class="title1">增加详情页</h3>
+  
+            <div class="bs-example widget-shadow" data-example-id="bordered-table">
+              <form action="/detail/addDetail" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                  <label for="id">序号ID:</label>
+                  <input type="text" class="form-control" id="id" name="id">
+                </div>
+                <div class="form-group">
+                  <label for="name">名字:</label>
+                  <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group">
+                  <label for="introduce">介绍:</label>
+                  <input type="text" class="form-control" id="introduce" name="introduce">
+                </div>
+                <div class="form-group">
+                  <label for="price">价格:</label>
+                  <input type="text" class="form-control" id="price" name="price">
+                </div>
+                <div class="form-group">
+                  <label for="weight">重量:</label>
+                  <input type="text" class="form-control" id="weight" name="weight">
+                </div>
+                <div class="form-group">
+                  <label for="dataItem">类型:</label>
+                  <input type="text" class="form-control" id="dataItem" name="dataItem">
+                </div>
+                <div class="form-group">
+                  <label for="img">图片:</label>
+                  <input type="file" class="form-control" id="img" name="img">
+                </div>
+                <div class="form-group">
+                  <label for="introduceText">详情页介绍:</label>
+                  <input type="text" class="form-control" id="introduceText" name="introduceText">
+                </div>
+                <div class="form-group">
+                  <label for="">图片:</label>
+                  <input type="file" class="form-control"  name="lunboImg">
+                  <input type="file" class="form-control"  name="lunboImg">
+                  <input type="file" class="form-control"  name="lunboImg">
+                  <input type="file" class="form-control"  name="lunboImg">
+                  <input type="file" class="form-control"  name="lunboImg">
+                </div>
+                <div class="form-group">
+                  <label for="">图片:</label>
+                  <input type="file" class="form-control"  name="showImg">
+                  <input type="file" class="form-control"  name="showImg">
+                  <input type="file" class="form-control"  name="showImg">
+                  <input type="file" class="form-control"  name="showImg">
+                  <input type="file" class="form-control"  name="showImg">
+                  <input type="file" class="form-control"  name="showImg">
+                  <input type="file" class="form-control"  name="showImg">
+                  <input type="file" class="form-control"  name="showImg">
+                  <input type="file" class="form-control"  name="showImg">
+                  <input type="file" class="form-control"  name="showImg">
+                </div>
+                <button type="submit" class="btn btn-primary">增加</button>
+              </form>
+            </div>
+          </div>
+          <div class="footer">
+            <h4 class="text-center">Copyright &copy; 2020.Company name All rights reserved.陈勇</h4>
+         </div>
+        </div>
+    </div>
+</div>
+
+<script src="/vendor/jquery/jquery.min.js"></script>
+<script src="/vendor/popper.js/popper.min.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/vendor/chart.js/chart.min.js"></script>
+<script src="/js/carbon.js"></script>
+<script src="/js/demo.js"></script>
+</body>
+</html>
+

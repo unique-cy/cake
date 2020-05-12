@@ -1,0 +1,110 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport"
+      content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <title>蛋糕官网_24小时蛋糕网上订购_5小时新鲜送达！</title>
+    <link rel="stylesheet" href="./css/user.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./public/header.css">
+    <script src="./js/flexible.js"></script>
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./public/publicHeader.js"></script>
+  </head>
+
+  <body>
+    <!-- 未登录 -->
+    <div class="userSign">
+      <div class="userSignTitle">
+        <div class="passwordLoginTitle signTitle signTitleClick">
+          <p>账号密码登录</p>
+        </div>
+        <div class="phoneLoginTitle signTitle">
+          <p>手机验证码登录</p>
+        </div>
+      </div>
+
+      <div class="Signbox">
+        <div action="" id="passwordLogin" class="signform">
+          <ul>
+            <li><input type="text" placeholder="用户名/邮箱地址" name="loginName1" maxlength="60" id="account"></li>
+            <li><input type="password" name="password1" id="password" maxlength="32" placeholder="填写密码"></li>
+            <li class="err"></li>
+            <input type="submit" value="登录" class="sign">
+          </ul>
+          <div class="help">
+            <a href="#">忘记密码</a>
+            <a href="./register.html">去注册</a>
+          </div>
+        </div>
+
+        <div action="" id="phoneLogin" class="signform" style="display: none;">
+          <ul>
+            <li><input type="text" placeholder="手机号" name="loginName2" maxlength="60"></li>
+            <li class="phoneLoginLi2">
+              <input type="password" name="password2" id="password2" maxlength="32" placeholder="填写密码">
+              <button class="phoneLoginVeri">发生验证码</button>
+            </li>
+            <li class="err" style="visibility: hidden;">请输入正确的手机号</li>
+            <input type="submit" value="登录" class="sign">
+          </ul>
+          <div class="help">
+            <a href="#">忘记密码</a>
+            <a href="#">去注册</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 登录成功后 -->
+    <div class="Signsuc" style="display: none;">
+      <p>欢迎你，<span class="Signsuc-name"></span></p>
+      <div class="person_info">
+        <div class="myInfo">
+          <div class="mem_logo">
+            <img src="./img/touxiang.png" alt="">
+          </div>
+          <ul class="mem_info">
+            <li class="name"></li>
+            <li class="phone"></li>
+            <li class="modify_info">修改个人信息 &gt;</li>
+          </ul>
+        </div>
+        <div class="activity">
+          <ul class="balance" style="border-left: 0;" data-account="">
+            <li class="a_title">￥<span class="price"></span>.00</li>
+            <li class="a_txt">果实币余额</li>
+          </ul>
+          <ul class="coupon">
+            <li class="a_title"><span class="couponCount" data-account=""></span>张</li>
+            <li class="a_txt">优惠券</li>
+          </ul>
+        </div>
+        <ul class="menu-list">
+          <li>待付订单</li>
+          <li>全部订单</li>
+          <li>地址管理</li>
+        </ul>
+        <a href="#" class="Advertisement"><img src="./img/gerenguanggao.png"></a>
+        <p class="SignOut">退出登录</p>
+      </div>
+    </div>
+
+    <!-- 两个模态框 -->
+    <div class="modalCont">
+      <p>验证码登录未开通</p>
+    </div>
+    <div class="modalCont-tuichu">
+      <p>退出成功</p>
+    </div>
+    <script src="./js/user.js"></script>
+    <script src="./js/cartNumJuage.js"></script>
+    <script>
+      cartNumJuage();
+    </script>
+  </body>
+
+  </html>

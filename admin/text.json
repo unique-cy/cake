@@ -1,0 +1,1902 @@
+{
+
+  "cake": {
+    "online": [{
+        "id": 1,
+        "name": "深爱",
+        "engname": "Deep Bailey Lovers",
+        "introduce": "你深爱过吗？",
+        "price": "268",
+        "weight": "454g(1.0磅)",
+        "img": "./img/contItem1.jpg",
+        "posiImg": "./img/mingxing.png",
+        "count": 1,
+        "thiscont": 1,
+        "total": 99,
+        "dataOnline": "online",
+        "dataItem": "cake",
+        "introduceText": "/奶油中调入玫瑰甘露，整体色泽加深/<br>/夹心中增加可咀嚼的玫瑰蜜饯，丰富口感/<br>*玫瑰花瓣经过消毒处理，仅用作装饰使用（使用围边纸与蛋糕隔开），不可食用。<br>1月1日起夹心为草莓。",
+        "Label": [{
+          "label": "情侣"
+        }, {
+          "label": "人气"
+        }],
+        "lunbo": [{
+          "img": "./fenleImg/sa1.jpg"
+        }, {
+          "img": "./fenleImg/sa2.jpg"
+        }, {
+          "img": "./fenleImg/sa3.jpg"
+        }, {
+          "img": "./fenleImg/sa4.jpg"
+        }, {
+          "img": "./fenleImg/sa5.jpg"
+        }],
+        "show": [{
+          "img": "./fenleImg/sa6.jpg"
+        }, {
+          "img": "./fenleImg/sa7.jpg"
+        }, {
+          "img": "./fenleImg/sa8.jpg"
+        }, {
+          "img": "./fenleImg/sa9.jpg"
+        }, {
+          "img": "./fenleImg/sa10.jpg"
+        }, {
+          "img": "./fenleImg/sa11.jpg"
+        }]
+      },
+      {
+        "id": 2,
+        "name": "草莓奶油蛋糕",
+        "engname": "Strawberry Cream Cake",
+        "introduce": "你深爱过吗？",
+        "price": "228",
+        "title": "此款为应季水果蛋糕，可能受限于原料供应；如出现无法交付的情况，届时我们会主动联系您进行告知。",
+        "weight": "908g(2.0磅)",
+        "img": "./img/contItem2.jpg",
+        "posiImg": "./img/shiling.png",
+        "count": 1,
+        "thiscont": 1,
+        "total": 99,
+        "dataOnline": "online",
+        "dataItem": "cake",
+        "introduceText": "/草莓配奶油，从王室，前往温布尔登的雨季/<br>Now 21cake has encapsulated this gloriously English tradition in square cake form. At Wimbledon, which dates back to 1877, protocol and propriety rule. Players must wear white...",
+        "Label": [{
+          "label": "情侣"
+        }, {
+          "label": "人气"
+        }],
+        "lunbo": [{
+          "img": "./fenleImg/cmny1.jpg"
+        }, {
+          "img": "./fenleImg/cmny2.jpg"
+        }],
+        "show": [{
+          "img": "./fenleImg/cmny3.jpg"
+        }, {
+          "img": "./fenleImg/cmny4.jpg"
+        }, {
+          "img": "./fenleImg/cmny5.jpg"
+        }, {
+          "img": "./fenleImg/cmny6.jpg"
+        }, {
+          "img": "./fenleImg/cmny7.jpg"
+        }, {
+          "img": "./fenleImg/cmny8.jpg"
+        }, {
+          "img": "./fenleImg/cmny9.jpg"
+        }]
+      },
+      {
+        "id": 3,
+        "name": "黑越橘",
+        "engname": "Blue Monday",
+        "introduce": "你深爱过吗？",
+        "price": "298",
+        "weight": "908g(2.0磅)",
+        "img": "./img/contItem3.jpg",
+        "posiImg": "./img/shiling.png",
+        "count": 1,
+        "thiscont": 1,
+        "total": 99,
+        "dataOnline": "online",
+        "dataItem": "cake",
+        "introduceText": "/从苏必利尔湖西端，至安大略湖东端的1400公里，是北美五大湖所经流域/<br>/这里，是黑越橘（野生蓝莓）的天堂/<br>Got those Monday blues? It’s time for a Blue Monday. Premium fresh blueberry jam atop a joyous mountain of creamy cheesecake, topped off with a Joy Division of the freshest...",
+        "Label": [{
+          "label": "人气"
+        }],
+        "lunbo": [{
+          "img": "./fenleImg/hyj1.jpg"
+        }, {
+          "img": "./fenleImg/hyj2.jpg"
+        }, {
+          "img": "./fenleImg/hyj3.jpg"
+        }, {
+          "img": "./fenleImg/hyj4.jpg"
+        }, {
+          "img": "./fenleImg/hyj5.jpg"
+        }],
+        "show": [{
+          "img": "./fenleImg/hyj6.jpg"
+        }, {
+          "img": "./fenleImg/hyj7.jpg"
+        }, {
+          "img": "./fenleImg/hyj8.jpg"
+        }]
+      },
+      {
+        "id": 4,
+        "name": "布莱克",
+        "engname": "The Nut Job Big",
+        "introduce": "你深爱过吗？",
+        "price": "298",
+        "weight": "908g(2.0磅)",
+        "img": "./img/contItem4.jpg",
+        "posiImg": "./img/shiling.png",
+        "count": 1,
+        "thiscont": 1,
+        "total": 99,
+        "dataOnline": "online",
+        "dataItem": "cake",
+        "introduceText": "/比利时黑巧克力与中国榛子，淡苦与干脆，浓香丰满/<br>Crazily crisp dark chocolate and kookily nutty fist fulls of Chinese hazelnuts make this one nut job you won’t want to lock up.",
+        "Label": [{
+          "label": "一人份"
+        }, {
+          "label": "人气"
+        }],
+        "lunbo": [{
+          "img": "./fenleImg/blk1.jpg"
+        }, {
+          "img": "./fenleImg/blk2.jpg"
+        }, {
+          "img": "./fenleImg/blk3.jpg"
+        }, {
+          "img": "./fenleImg/blk4.jpg"
+        }],
+        "show": [{
+          "img": "./fenleImg/blk5.jpg"
+        }, {
+          "img": "./fenleImg/blk6.jpg"
+        }, {
+          "img": "./fenleImg/blk7.jpg"
+        }, {
+          "img": "./fenleImg/blk8.jpg"
+        }, {
+          "img": "./fenleImg/blk9.jpg"
+        }, {
+          "img": "./fenleImg/blk10.jpg"
+        }, {
+          "img": "./fenleImg/blk11.jpg"
+        }, {
+          "img": "./fenleImg/blk12.jpg"
+        }]
+      },
+      {
+        "id": 5,
+        "name": "（新）卡百利（丰香奶油）",
+        "engname": "Strawberry Fool",
+        "introduce": "八个风味层次，让草莓果香次第送出",
+        "price": "268",
+        "weight": "454g(1.0磅)",
+        "img": "./img/contItem5.jpg",
+        "posiImg": "./img/renqi.png",
+        "count": 1,
+        "thiscont": 1,
+        "total": 99,
+        "dataOnline": "online",
+        "dataItem": "cake",
+        "dataimg": "./img/contItem5.jpg",
+        "introduceText": "产品限量，需提前预定",
+        "Label": [{
+          "label": "情侣"
+        }, {
+          "label": "聚会"
+        }, {
+          "label": "生日"
+        }],
+        "lunbo": [{
+          "img": "./fenleImg/ny1.jpg"
+        }, {
+          "img": "./fenleImg/ny2.jpg"
+        }, {
+          "img": "./fenleImg/ny3.jpg"
+        }, {
+          "img": "./fenleImg/ny4.jpg"
+        }],
+        "show": [{
+          "img": "./fenleImg/ny5.jpg"
+        }, {
+          "img": "./fenleImg/ny6.jpg"
+        }, {
+          "img": "./fenleImg/ny7.jpg"
+        }, {
+          "img": "./fenleImg/ny8.jpg"
+        }, {
+          "img": "./fenleImg/ny9.jpg"
+        }, {
+          "img": "./fenleImg/ny10.jpg"
+        }, {
+          "img": "./fenleImg/ny11.jpg"
+        }, {
+          "img": "./fenleImg/ny12.jpg"
+        }, {
+          "img": "./fenleImg/ny13.jpg"
+        }, {
+          "img": "./fenleImg/ny14.jpg"
+        }]
+      },
+      {
+        "id": 6,
+        "name": "榴莲飘飘",
+        "engname": "A Picture of Durian Grey",
+        "introduce": "八个风味层次，让草莓果香次第送出",
+        "price": "298",
+        "weight": "908g(2.0磅)",
+        "img": "./img/contItem6.jpg",
+        "posiImg": "./img/renqi.png",
+        "count": 1,
+        "thiscont": 1,
+        "total": 99,
+        "dataOnline": "online",
+        "dataItem": "cake",
+        "introduceText": "/自然成熟的泰国榴莲/<br>/在曼谷，官兵后代庭院中，生长着一百年至一百五十年的榴莲树/<br>Imagine if an object could bear the weight of all your sins, while you swan about ever beautiful. The durian fruit bears the weight of its sins on the outside, in the form of its malodorous stench.",
+        "Label": [{
+          "label": "人气"
+        }, {
+          "label": "生日"
+        }],
+        "lunbo": [{
+          "img": "./fenleImg/llpp1.jpg"
+        }],
+        "show": [{
+          "img": "./fenleImg/llpp2.jpg"
+        }, {
+          "img": "./fenleImg/llpp3.jpg"
+        }, {
+          "img": "./fenleImg/llpp4.jpg"
+        }, {
+          "img": "./fenleImg/llpp5.jpg"
+        }, {
+          "img": "./fenleImg/llpp6.jpg"
+        }, {
+          "img": "./fenleImg/llpp7.jpg"
+        }, {
+          "img": "./fenleImg/llpp8.jpg"
+        }, {
+          "img": "./fenleImg/llpp9.jpg"
+        }]
+      },
+      {
+        "id": 7,
+        "name": "黑白巧克力慕斯",
+        "engname": "Black and White Chocolate Mousse",
+        "introduce": "八个风味层次，让草莓果香次第送出",
+        "price": "298",
+        "weight": "908g(2.0磅)",
+        "img": "./img/contItem7.jpg",
+        "posiImg": "./img/renqi.png",
+        "count": 1,
+        "thiscont": 1,
+        "total": 99,
+        "dataOnline": "online",
+        "dataItem": "cake",
+        "introduceText": "/口感冰凉细腻，白巧克力慕斯的甜，与底部黑巧克力酱的苦/<br>Cool, silky white chocolate. Rich, bitter dark chocolate. They’re like the mismatched cop duo who spent all their time bickering but always got results. The results in this case? A dessert experience to die for.",
+        "Label": [{
+          "label": "聚会"
+        }, {
+          "label": "人气"
+        }, {
+          "label": "生日"
+        }],
+        "lunbo": [{
+          "img": "./fenleImg/hbqklms1.jpg"
+        }],
+        "show": [{
+          "img": "./fenleImg/hbqklms2.jpg"
+        }, {
+          "img": "./fenleImg/hbqklms3.jpg"
+        }, {
+          "img": "./fenleImg/hbqklms4.jpg"
+        }, {
+          "img": "./fenleImg/hbqklms5.jpg"
+        }, {
+          "img": "./fenleImg/hbqklms6.jpg"
+        }, {
+          "img": "./fenleImg/hbqklms7.jpg"
+        }, {
+          "img": "./fenleImg/hbqklms8.jpg"
+        }]
+      },
+      {
+        "id": 8,
+        "name": "米道",
+        "engname": "Rice Cake",
+        "introduce": "八个风味层次，让草莓果香次第送出",
+        "price": "298",
+        "weight": "454g(1.0磅)",
+        "img": "./img/contItem8.jpg",
+        "posiImg": "./img/renqi.png",
+        "count": 1,
+        "thiscont": 1,
+        "total": 99,
+        "dataOnline": "online",
+        "dataItem": "cake",
+        "introduceText": "天真、天然<br>是我们做这款蛋糕唯一的出发点",
+        "Label": [{
+          "label": "儿童"
+        }, {
+          "label": "人气"
+        }, {
+          "label": "生日"
+        }],
+        "lunbo": [{
+          "img": "./fenleImg/md1.jpg"
+        }, {
+          "img": "./fenleImg/md2.jpg"
+        }, {
+          "img": "./fenleImg/md3.jpg"
+        }, {
+          "img": "./fenleImg/md4.jpg"
+        }, {
+          "img": "./fenleImg/md5.jpg"
+        }],
+        "show": [{
+          "img": "./fenleImg/md6.jpg"
+        }, {
+          "img": "./fenleImg/md7.jpg"
+        }, {
+          "img": "./fenleImg/md8.jpg"
+        }, {
+          "img": "./fenleImg/md9.jpg"
+        }, {
+          "img": "./fenleImg/md10.jpg"
+        }, {
+          "img": "./fenleImg/md11.jpg"
+        }, {
+          "img": "./fenleImg/md12.jpg"
+        }, {
+          "img": "./fenleImg/md13.jpg"
+        }, {
+          "img": "./fenleImg/md14.jpg"
+        }]
+      },
+      {
+        "id": 9,
+        "name": "朗姆芝士",
+        "engname": "Rum Cheese Cake",
+        "introduce": "八个风味层次，让草莓果香次第送出",
+        "price": "298",
+        "weight": "908g(2.0磅)",
+        "img": "./img/contItem9.jpg",
+        "posiImg": "./img/renqi.png",
+        "count": 1,
+        "thiscont": 1,
+        "total": 99,
+        "dataOnline": "online",
+        "dataItem": "cake",
+        "introduceText": "/香滑的乳酪与打开的一瓶波多黎各朗姆酒/<br>/酒香，微苦，清新的柠檬/<br>Shiver me timbers! Here’s a rum one – but unlike most of its seafaring fellows our rum cheesecake is far from swarthy.",
+        "Label": [{
+          "label": "情侣"
+        }, {
+          "label": "生日"
+        }],
+        "lunbo": [{
+          "img": "./fenleImg/lmzh1.jpg"
+        }, {
+          "img": "./fenleImg/lmzh2.jpg"
+        }, {
+          "img": "./fenleImg/lmzh3.jpg"
+        }],
+        "show": [{
+          "img": "./fenleImg/lmzh4.jpg"
+        }, {
+          "img": "./fenleImg/lmzh5.jpg"
+        }, {
+          "img": "./fenleImg/lmzh6.jpg"
+        }, {
+          "img": "./fenleImg/lmzh7.jpg"
+        }, {
+          "img": "./fenleImg/lmzh8.jpg"
+        }, {
+          "img": "./fenleImg/lmzh9.jpg"
+        }, {
+          "img": "./fenleImg/lmzh10.jpg"
+        }, {
+          "img": "./fenleImg/lmzh11.jpg"
+        }]
+      },
+      {
+        "id": 10,
+        "name": "浅草",
+        "engname": "Teatime",
+        "introduce": "八个风味层次，让草莓果香次第送出",
+        "price": "298",
+        "weight": "908g(2.0磅)",
+        "img": "./img/contItem10.jpg",
+        "posiImg": "./img/mingxing.png",
+        "count": 1,
+        "thiscont": 1,
+        "total": 99,
+        "dataOnline": "online",
+        "dataItem": "cake",
+        "introduceText": "/“浅草才能没马蹄”/<br>/切着吃的雨前西湖龙井/<br>/中国绿茶与爽脆果实，工笔勾勒一杯好茶/<br>/复杂而纯粹的深浅绿意/",
+        "Label": [{
+          "label": "新品"
+        }, {
+          "label": "人气"
+        }, {
+          "label": "生日"
+        }, {
+          "label": "相识"
+        }],
+        "lunbo": [{
+          "img": "./fenleImg/qc1.jpg"
+        }, {
+          "img": "./fenleImg/qc2.jpg"
+        }, {
+          "img": "./fenleImg/qc3.jpg"
+        }, {
+          "img": "./fenleImg/qc4.jpg"
+        }, {
+          "img": "./fenleImg/qc5.jpg"
+        }],
+        "show": [{
+          "img": "./fenleImg/qc6.jpg"
+        }, {
+          "img": "./fenleImg/qc7.jpg"
+        }, {
+          "img": "./fenleImg/qc8.jpg"
+        }, {
+          "img": "./fenleImg/qc9.jpg"
+        }, {
+          "img": "./fenleImg/qc10.jpg"
+        }, {
+          "img": "./fenleImg/qc11.jpg"
+        }]
+      },
+      {
+        "id": 11,
+        "name": "摩卡",
+        "engname": "Café Mocha",
+        "introduce": "你深爱过吗？",
+        "price": "268",
+        "weight": "454g(1.0磅)",
+        "img": "./img/contItem11.jpg",
+        "posiImg": "./img/renqi.png",
+        "count": 1,
+        "thiscont": 1,
+        "total": 99,
+        "dataOnline": "online",
+        "dataItem": "cake",
+        "introduceText": "/世上还有摩卡，就有无尽挣扎/",
+        "Label": [{
+          "label": "一人份"
+        }, {
+          "label": "新品"
+        }, {
+          "label": "总有一款适合你"
+        }],
+        "lunbo": [{
+          "img": "./fenleImg/mocha1.jpg"
+        }, {
+          "img": "./fenleImg/mocha2.jpg"
+        }, {
+          "img": "./fenleImg/mocha3.jpg"
+        }, {
+          "img": "./fenleImg/mocha4.jpg"
+        }],
+        "show": [{
+          "img": "./fenleImg/mocha5.jpg"
+        }, {
+          "img": "./fenleImg/mocha6.jpg"
+        }, {
+          "img": "./fenleImg/mocha7.jpg"
+        }, {
+          "img": "./fenleImg/mocha8.jpg"
+        }, {
+          "img": "./fenleImg/mocha9.jpg"
+        }, {
+          "img": "./fenleImg/mocha10.jpg"
+        }, {
+          "img": "./fenleImg/mocha11.jpg"
+        }]
+      },
+      {
+        "id": 12,
+        "name": "（新）栗蓉暗香",
+        "engname": "Chestnut Cream",
+        "introduce": "八个风味层次，让草莓果香次第送出",
+        "price": "298",
+        "weight": "908g(2.0磅)",
+        "img": "./img/contItem12.jpg",
+        "posiImg": "./img/renqi.png",
+        "count": 1,
+        "thiscont": 1,
+        "total": 99,
+        "dataOnline": "online",
+        "dataItem": "cake",
+        "introduceText": "/栗子烘烤的蛋糕坯，鲜栗蓉，点缀手工比利时黑巧克力豆/<br>Chestnuts and real fresh cream go so well together you know this isn’t going to be a short term dalliance. In fact, one whiff of the aroma of Chestnut Cream and you’ll realize you’re attending their wedding...<br>",
+        "Label": [{
+          "label": "儿童"
+        }, {
+          "label": "聚会"
+        }, {
+          "label": "长辈"
+        }, {
+          "label": "栗子蛋糕"
+        }],
+        "lunbo": [{
+          "img": "./fenleImg/lrax1.jpg"
+        }, {
+          "img": "./fenleImg/lrax2.jpg"
+        }, {
+          "img": "./fenleImg/lrax3.jpg"
+        }, {
+          "img": "./fenleImg/lrax4.jpg"
+        }],
+        "show": [{
+          "img": "./fenleImg/lrax5.jpg"
+        }, {
+          "img": "./fenleImg/lrax6.jpg"
+        }, {
+          "img": "./fenleImg/lrax7.jpg"
+        }, {
+          "img": "./fenleImg/lrax8.jpg"
+        }, {
+          "img": "./fenleImg/lrax9.jpg"
+        }, {
+          "img": "./fenleImg/lrax10.jpg"
+        }, {
+          "img": "./fenleImg/lrax11.jpg"
+        }]
+      }
+    ],
+    "LowerShelf": [{
+      "id": 13,
+      "name": "桂圆冰淇淋蛋糕",
+      "engname": "Ice Cream Cake with Longan",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "298",
+      "weight": "908g(2.0磅)",
+      "img": "./img/contItem12.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "LowerShelf",
+      "dataItem": "cake",
+      "introduceText": "/栗子烘烤的蛋糕坯，鲜栗蓉，点缀手工比利时黑巧克力豆/<br>Chestnuts and real fresh cream go so well together you know this isn’t going to be a short term dalliance. In fact, one whiff of the aroma of Chestnut Cream and you’ll realize you’re attending their wedding...<br>",
+      "Label": [{
+        "label": "低温"
+      }, {
+        "label": "人气"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/gybqldg1.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/gybqldg2.jpg"
+      }, {
+        "img": "./fenleImg/gybqldg3.jpg"
+      }, {
+        "img": "./fenleImg/gybqldg4.jpg"
+      }, {
+        "img": "./fenleImg/gybqldg5.jpg"
+      }, {
+        "img": "./fenleImg/gybqldg6.jpg"
+      }, {
+        "img": "./fenleImg/gybqldg7.jpg"
+      }]
+    }]
+  },
+
+  "IceCream": {
+    "online": [{
+      "id": 14,
+      "name": "原味牛乳冰淇淋",
+      "engname": "Milk Gelato",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "45",
+      "weight": "80g(盒)",
+      "img": "./img/ice1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "IceCream",
+      "introduceText": "/纯正牛乳，牛乳香，单纯/<br>/Gelato10自研，新西兰乳脂奶油/<br>/融入鲜奶，单纯之能及/",
+      "Label": [{
+        "label": "人气"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/ywnrbql1.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/ywnrbql2.jpg"
+      }, {
+        "img": "./fenleImg/ywnrbql3.jpg"
+      }, {
+        "img": "./fenleImg/ywnrbql4.png"
+      }]
+    }, {
+      "id": 15,
+      "name": "夏日-Affogato组合",
+      "engname": "Affogato",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "55",
+      "weight": "80g(份)",
+      "img": "./img/ice2.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "IceCream",
+      "introduceText": "/Affogato，冰淇淋吃法的一次实践/<br>/现冲，水粉比12:1 。约120ml，90℃-95℃热水冲煮挂耳咖啡/<br>/打开Gelato10，将咖啡注入冰淇淋表面/<br>/倒入少量，是咖啡“遇见”冰淇淋，凝成细细的冰沙/<br>/多倒一点，是咖啡瞬间“融化”冰淇淋/<br>/尝一口，Affogato/",
+      "Label": [{
+        "label": "人气"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/xrzh1.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/xrzh2.jpg"
+      }, {
+        "img": "./fenleImg/xrzh3.jpg"
+      }, {
+        "img": "./fenleImg/xrzh4.jpg"
+      }, {
+        "img": "./fenleImg/xrzh5.jpg"
+      }, {
+        "img": "./fenleImg/xrzh6.jpg"
+      }, {
+        "img": "./fenleImg/xrzh7.jpg"
+      }]
+    }],
+    "LowerShelf": [{
+      "id": 16,
+      "name": "荔枝冰淇淋",
+      "engname": "Litchi Gelato",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "45",
+      "weight": "80g(盒)",
+      "img": "./img/ice3.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "LowerShelf",
+      "dataItem": "IceCream",
+      "introduceText": "/丰富，真实/<br>/小众口味荔枝冰淇淋/<br>/少见的口味，少见的工艺/<br>/每盒gelato10，荔枝冰淇淋/<br>/使用超过35%荔枝食材/<br>/而非浓缩调味汁 /<b>/荔枝香味丰富，真实/",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/lzbql1.jpg"
+      }, {
+        "img": "./fenleImg/lzbql2.jpg"
+      }, {
+        "img": "./fenleImg/lzbql3.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/lzbql4.jpg"
+      }, {
+        "img": "./fenleImg/lzbql5.jpg"
+      }, {
+        "img": "./fenleImg/lzbql6.jpg"
+      }]
+    }, {
+      "id": 17,
+      "name": "拿铁冰淇淋",
+      "engname": "Latte Gelato",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "45",
+      "weight": "80g(盒)",
+      "img": "./img/ice4.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "LowerShelf",
+      "dataItem": "IceCream",
+      "introduceText": "/日晒与水洗西达摩拼配，香气浓郁/<br>/中偏深烘焙，带来巧克力坚果气息，和烟熏尾韵/<br>/咖啡加牛奶，平衡、醇厚/<b>",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/llbql.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/llbq2.jpg"
+      }, {
+        "img": "./fenleImg/llbq3.jpg"
+      }, {
+        "img": "./fenleImg/llbq4.jpg"
+      }]
+    }]
+  },
+
+  "AfternoonTea": {
+    "online": [{
+      "id": 18,
+      "name": "蔓越莓干（1包）",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "45",
+      "weight": "244g(份)",
+      "img": "./img/cafe6.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "AfternoonTea",
+      "introduceText": "/日晒与水洗西达摩拼配，香气浓郁/<br>/中偏深烘焙，带来巧克力坚果气息，和烟熏尾韵/<br>/咖啡加牛奶，平衡、醇厚/<b>",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/mymg1.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/mymg2.jpg"
+      }, {
+        "img": "./fenleImg/mymg3.jpg"
+      }, {
+        "img": "./fenleImg/mymg4.jpg"
+      }, {
+        "img": "./fenleImg/mymg5.jpg"
+      }, {
+        "img": "./fenleImg/mymg6.jpg"
+      }]
+    }, {
+      "id": 19,
+      "name": "灰枣（1包）",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "45",
+      "weight": "195g(份)",
+      "img": "./img/cafe2.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "AfternoonTea",
+
+      "introduceText": "/产自中国新疆，独一无二树上自然吊干红枣，被誉为“天然维生素丸”，核小，肉质脆厚，富含营养。/",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/hz1.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/hz2.jpg"
+      }, {
+        "img": "./fenleImg/hz3.jpg"
+      }, {
+        "img": "./fenleImg/hz4.jpg"
+      }]
+    }, {
+      "id": 20,
+      "name": "手剥紫皮大腰果（120g）",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "50",
+      "weight": "120g(份)",
+      "img": "./img/cafe1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "AfternoonTea",
+      "introduceText": "/产自越南，保留腰果原衣，浅烘焙加工，食用时去衣，还原更原始果香。/",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/sbzpdyg1.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/sbzpdyg2.jpg"
+      }, {
+        "img": "./fenleImg/sbzpdyg3.jpg"
+      }, {
+        "img": "./fenleImg/sbzpdyg4.jpg"
+      }, {
+        "img": "./fenleImg/sbzpdyg5.jpg"
+      }]
+    }, {
+      "id": 21,
+      "name": "手剥紫皮大腰果（248g）",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "80",
+      "weight": "248g(份)",
+      "img": "./img/cafe1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "AfternoonTea",
+      "introduceText": "/产自越南，保留腰果原衣，浅烘焙加工，食用时去衣，还原更原始果香。/",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/sbzpdyg1.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/sbzpdyg2.jpg"
+      }, {
+        "img": "./fenleImg/sbzpdyg3.jpg"
+      }, {
+        "img": "./fenleImg/sbzpdyg4.jpg"
+      }, {
+        "img": "./fenleImg/sbzpdyg5.jpg"
+      }]
+    }, {
+      "id": 22,
+      "name": "耶加雪菲挂耳咖啡",
+      "engname": "Yirgacheffe Coffee",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "10",
+      "weight": "10g(包)",
+      "img": "./img/cafe3.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "AfternoonTea",
+      "introduceText": "/自烘焙G1等级水洗耶加雪菲豆/<br>/烘焙时注意到降低酸度/<br>/得到最适合人类味蕾的甜酸比/<br>/柔和柠檬香、花香、蜂蜜味，扑面而来/",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/yjxfgekf1.jpg"
+      }, {
+        "img": "./fenleImg/yjxfgekf2.jpg"
+      }, {
+        "img": "./fenleImg/yjxfgekf3.jpg"
+      }, {
+        "img": "./fenleImg/yjxfgekf4.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/yjxfgekf5.jpg"
+      }, {
+        "img": "./fenleImg/yjxfgekf6.jpg"
+      }, {
+        "img": "./fenleImg/yjxfgekf7.jpg"
+      }, {
+        "img": "./fenleImg/yjxfgekf8.jpg"
+      }]
+    }, {
+      "id": 23,
+      "name": "西达摩挂耳咖啡",
+      "engname": "Sidamo Coffee",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "10",
+      "weight": "10g(包)",
+      "img": "./img/cafe4.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "AfternoonTea",
+      "introduceText": "/浅中焙，G1等级日晒西达摩豆/<br>/在降低酸度的同时/<br>/充分激发日晒豆成熟的果酱、发酵香/<br>/可以品尝到，红酒般的滑顺和重量感/",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/xdmgekf1.jpg"
+      }, {
+        "img": "./fenleImg/xdmgekf2.jpg"
+      }, {
+        "img": "./fenleImg/xdmgekf3.jpg"
+      }, {
+        "img": "./fenleImg/xdmgekf4.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/xdmgekf5.jpg"
+      }, {
+        "img": "./fenleImg/xdmgekf6.jpg"
+      }, {
+        "img": "./fenleImg/xdmgekf7.jpg"
+      }, {
+        "img": "./fenleImg/xdmgekf8.jpg"
+      }]
+    }, {
+      "id": 24,
+      "name": "巴西挂耳咖啡",
+      "engname": "Brazil Coffee",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "10",
+      "weight": "10g(包)",
+      "img": "./img/cafe7.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "AfternoonTea",
+      "introduceText": "/烘焙时，以还原产区经典风味为前提/<br>/得到干净、低酸，有醇厚坚果香的咖啡液/<br>/焦糖、巧克力尾韵持久/",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/bxgekf1.jpg"
+      }, {
+        "img": "./fenleImg/bxgekf2.jpg"
+      }, {
+        "img": "./fenleImg/bxgekf3.jpg"
+      }, {
+        "img": "./fenleImg/bxgekf4.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/bxgekf5.jpg"
+      }, {
+        "img": "./fenleImg/bxgekf6.jpg"
+      }, {
+        "img": "./fenleImg/bxgekf7.jpg"
+      }, {
+        "img": "./fenleImg/bxgekf8.jpg"
+      }]
+    }, {
+      "id": 25,
+      "name": "巴布亚新几内亚挂耳咖啡",
+      "engname": "Papua New Guinea Coffee",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "10",
+      "weight": "10g(包)",
+      "img": "./img/cafe8.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "AfternoonTea",
+      "introduceText": "/原豆经过三次水洗发酵，口感干净绵长/<br>/释放草本，与微苦巧克力风味/<br>/烘焙时加上优雅烟熏尾调，很别致/",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/bbyxjnygekf1.jpg"
+      }, {
+        "img": "./fenleImg/bbyxjnygekf2.jpg"
+      }, {
+        "img": "./fenleImg/bbyxjnygekf3.jpg"
+      }, {
+        "img": "./fenleImg/bbyxjnygekf4.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/bbyxjnygekf5.jpg"
+      }, {
+        "img": "./fenleImg/bbyxjnygekf6.jpg"
+      }, {
+        "img": "./fenleImg/bbyxjnygekf7.jpg"
+      }, {
+        "img": "./fenleImg/bbyxjnygekf8.jpg"
+      }]
+    }],
+    "LowerShelf": [{
+      "id": 26,
+      "name": "下午茶套餐(双人分享装)",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "123.80",
+      "weight": "一份/3.0磅+",
+      "img": "./img/cafe8.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "LowerShelf",
+      "dataItem": "AfternoonTea",
+      "Label": [{
+        "label": "新品"
+      }, {
+        "label": "吐司"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/xwctc1.jpg"
+      }, {
+        "img": "./fenleImg/xwctc2.jpg"
+      }, {
+        "img": "./fenleImg/xwctc3.jpg"
+      }, {
+        "img": "./fenleImg/xwctc4.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/xwctc5.jpg"
+      }, {
+        "img": "./fenleImg/xwctc6.jpg"
+      }, {
+        "img": "./fenleImg/xwctc7.jpg"
+      }, {
+        "img": "./fenleImg/xwctc8.jpg"
+      }, {
+        "img": "./fenleImg/xwctc9.jpg"
+      }, {
+        "img": "./fenleImg/xwctc10.jpg"
+      }, {
+        "img": "./fenleImg/xwctc11.jpg"
+      }, {
+        "img": "./fenleImg/xwctc12.jpg"
+      }]
+    }]
+  },
+  "bread": {
+    "online": [{
+      "id": 27,
+      "name": "经典套餐",
+      "engname": "Classic Set Meal",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "58",
+      "weight": "305g(一份)",
+      "img": "./img/mianbao1.png",
+      "posiImg": "./img/mingxing.png",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "bread",
+      "introduceText": "北海道吐司*1+果酱*2+原味可颂*1+阳光葡萄卷*1+咖啡*2",
+      "Label": [{
+        "label": "面包"
+      }, {
+        "label": "面包套餐"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/jdtc1.jpg"
+      }, {
+        "img": "./fenleImg/jdtc2.jpg"
+      }, {
+        "img": "./fenleImg/jdtc3.jpg"
+      }, {
+        "img": "./fenleImg/jdtc4.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/jdtc5.jpg"
+      }, {
+        "img": "./fenleImg/jdtc6.jpg"
+      }, {
+        "img": "./fenleImg/jdtc7.jpg"
+      }, {
+        "img": "./fenleImg/jdtc8.jpg"
+      }, {
+        "img": "./fenleImg/jdtc9.jpg"
+      }, {
+        "img": "./fenleImg/jdtc10.jpg"
+      }, {
+        "img": "./fenleImg/jdtc11.jpg"
+      }]
+    }, {
+      "id": 28,
+      "name": "儿童套餐",
+      "engname": "Children Set Meal",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "48",
+      "weight": "230g(一份)",
+      "img": "./img/mianbao2.png",
+      "posiImg": "./img/mingxing.png",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "bread",
+      "introduceText": "核桃派*1+蓝莓可颂*1+阳光葡萄卷*1+果酱*1",
+      "Label": [{
+        "label": "面包"
+      }, {
+        "label": "面包套餐"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/ettc1.jpg"
+      }, {
+        "img": "./fenleImg/ettc2.jpg"
+      }, {
+        "img": "./fenleImg/ettc3.jpg"
+      }, {
+        "img": "./fenleImg/ettc4.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/ettc5.jpg"
+      }, {
+        "img": "./fenleImg/ettc6.jpg"
+      }, {
+        "img": "./fenleImg/ettc7.jpg"
+      }, {
+        "img": "./fenleImg/ettc8.jpg"
+      }, {
+        "img": "./fenleImg/ettc9.jpg"
+      }, {
+        "img": "./fenleImg/ettc10.jpg"
+      }, {
+        "img": "./fenleImg/ettc11.jpg"
+      }]
+    }, {
+      "id": 29,
+      "name": "全家福套餐",
+      "engname": "Children Set Meal",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "78",
+      "weight": "445g(一份)",
+      "img": "./img/mianbao3.png",
+      "posiImg": "./img/mingxing.png",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "bread",
+      "introduceText": "北海道吐司*1+果酱*2+原味可颂*1+阳光葡萄卷*1+蓝莓可颂*1+核桃派*1+咖啡*1",
+      "Label": [{
+        "label": "面包"
+      }, {
+        "label": "面包套餐"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/qjftc1.jpg"
+      }, {
+        "img": "./fenleImg/qjftc2.jpg"
+      }, {
+        "img": "./fenleImg/qjftc3.jpg"
+      }, {
+        "img": "./fenleImg/qjftc4.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/qjftc5.jpg"
+      }, {
+        "img": "./fenleImg/qjftc6.jpg"
+      }, {
+        "img": "./fenleImg/qjftc7.jpg"
+      }, {
+        "img": "./fenleImg/qjftc8.jpg"
+      }, {
+        "img": "./fenleImg/qjftc9.jpg"
+      }, {
+        "img": "./fenleImg/qjftc10.jpg"
+      }, {
+        "img": "./fenleImg/qjftc11.jpg"
+      }, {
+        "img": "./fenleImg/qjftc12.jpg"
+      }, {
+        "img": "./fenleImg/qjftc13.jpg"
+      }, {
+        "img": "./fenleImg/qjftc14.jpg"
+      }]
+    }, {
+      "id": 30,
+      "name": "《家常面包》（京沪杭满39元包邮）",
+      "engname": "Home Style Bread",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "41.4",
+      "weight": "265g(一份)",
+      "img": "./img/mianbao4.png",
+      "posiImg": "./img/mingxing.png",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "bread",
+      "introduceText": "北海道吐司1份、蓝莓可颂1个、阳光葡萄卷1个",
+      "Label": [{
+        "label": "面包"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/jcmb1.jpg"
+      }, {
+        "img": "./fenleImg/jcmb2.jpg"
+      }, {
+        "img": "./fenleImg/jcmb3.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/jcmb4.jpg"
+      }, {
+        "img": "./fenleImg/jcmb5.jpg"
+      }, {
+        "img": "./fenleImg/jcmb6.jpg"
+      }, {
+        "img": "./fenleImg/jcmb7.jpg"
+      }]
+    }, {
+      "id": 31,
+      "name": "红糖红枣桂圆软欧（京沪满39元包邮）",
+      "engname": "Brown Sugar, Date And Longan Bread",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "6",
+      "weight": "90g(一份)",
+      "img": "./img/mianbao5.png",
+      "posiImg": "./img/xinping.png",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "bread",
+      "introduceText": "/传统红糖搭配新疆红枣，与甜润桂圆干/<br>/熟悉的食材带来甜软、踏实的口感/<br>/比中式点心营养更丰富，非常适合秋冬进补/<br>/家里吃不惯面包的老人/<br>/也可以从尝试【养】开始，养成食用面包的习惯/",
+      "Label": [{
+        "label": "面包"
+      }, {
+        "label": "女性"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/hthzgyor1.jpg"
+      }, {
+        "img": "./fenleImg/hthzgyor2.jpg"
+      }, {
+        "img": "./fenleImg/hthzgyor3.jpg"
+      }, {
+        "img": "./fenleImg/hthzgyor4.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/hthzgyor5.jpg"
+      }, {
+        "img": "./fenleImg/hthzgyor6.jpg"
+      }, {
+        "img": "./fenleImg/hthzgyor7.jpg"
+      }, {
+        "img": "./fenleImg/hthzgyor8.jpg"
+      }, {
+        "img": "./fenleImg/hthzgyor9.jpg"
+      }, {
+        "img": "./fenleImg/hthzgyor10.jpg"
+      }, {
+        "img": "./fenleImg/hthzgyor11.jpg"
+      }]
+    }, {
+      "id": 32,
+      "name": "北海道吐司（4片/京沪杭满39元包邮）",
+      "engname": "Hokkaido Toast",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "13.8",
+      "weight": "150g(一份)",
+      "img": "./img/mianbao6.png",
+      "posiImg": "./img/xinping.png",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "bread",
+      "introduceText": "北海道吐司1份、蓝莓可颂1个、阳光葡萄卷1个",
+      "Label": [{
+        "label": "面包"
+      }, {
+        "label": "儿童"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/bhdts1.jpg"
+      }, {
+        "img": "./fenleImg/bhdts2.jpg"
+      }, {
+        "img": "./fenleImg/bhdts3.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/bhdts4.jpg"
+      }, {
+        "img": "./fenleImg/bhdts5.jpg"
+      }, {
+        "img": "./fenleImg/bhdts6.jpg"
+      }, {
+        "img": "./fenleImg/bhdts7.jpg"
+      }, {
+        "img": "./fenleImg/bhdts8.jpg"
+      }, {
+        "img": "./fenleImg/bhdts9.jpg"
+      }, {
+        "img": "./fenleImg/bhdts10.jpg"
+      }]
+    }]
+  },
+
+  "NormalTemperatureCake": {
+    "online": [{
+      "id": 33,
+      "name": "磅蛋糕切片（核桃）",
+      "engname": "Classic Set Meal",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "8",
+      "weight": "30g(份)",
+      "img": "./img/dangao1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "NormalTemperatureCake",
+      "introduceText": "/使用fine dining级别原料/<br>/烤制朴素的日常点心/<br>/降至常温后，到手中是恰到好处的温度/<br>/轻松拿捏的形状、分量，更适合随时一口/",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/bdgqp1.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp2.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp3.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp4.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/bdgqp5.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp6.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp7.jpg"
+      }]
+    }, {
+      "id": 34,
+      "name": "磅蛋糕切片（杏仁）",
+      "engname": "Pound cake slice",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "8",
+      "weight": "30g(份)",
+      "img": "./img/dangao2.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "NormalTemperatureCake",
+      "introduceText": "/使用fine dining级别原料/<br>/烤制朴素的日常点心/<br>/降至常温后，到手中是恰到好处的温度/<br>/轻松拿捏的形状、分量，更适合随时一口/",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/bdgqp8.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp9.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp10.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp11.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/bdgqp12.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp13.jpg"
+      }]
+    }, {
+      "id": 35,
+      "name": "磅蛋糕切片（黑朗姆）",
+      "engname": "Pound cake slice",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "8",
+      "weight": "30g(份)",
+      "img": "./img/dangao3.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "NormalTemperatureCake",
+      "introduceText": "/使用fine dining级别原料/<br>/烤制朴素的日常点心/<br>/降至常温后，到手中是恰到好处的温度/<br>/轻松拿捏的形状、分量，更适合随时一口/",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/bdgqp14.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp15.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp16.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/bdgqp17.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp18.jpg"
+      }, {
+        "img": "./fenleImg/bdgqp19.jpg"
+      }]
+    }]
+  },
+
+  "gift": {
+    "online": [{
+      "id": 36,
+      "name": "设计师竹纸扇",
+      "engname": "Paper fan",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "38",
+      "weight": "把",
+      "img": "./img/shejishi1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "gift",
+      "introduceText": "/竹制扇柄、扇骨，表面碳化工艺/<br>/手工西和麻纸扇面，纹路自然氤氲/<br>/拿在手中，就是一夏幽凉/",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/sjszzs1.jpg"
+      }, {
+        "img": "./fenleImg/sjszzs2.jpg"
+      }, {
+        "img": "./fenleImg/sjszzs3.jpg"
+      }, {
+        "img": "./fenleImg/sjszzs4.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/sjszzs5.jpg"
+      }, {
+        "img": "./fenleImg/sjszzs6.jpg"
+      }, {
+        "img": "./fenleImg/sjszzs7.jpg"
+      }, {
+        "img": "./fenleImg/sjszzs8.jpg"
+      }, {
+        "img": "./fenleImg/sjszzs9.jpg"
+      }]
+    }, {
+      "id": 37,
+      "name": "方形蜡烛",
+      "engname": "Square candle",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "8",
+      "weight": "个",
+      "img": "./img/shejishi2.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "gift",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/fxlz1.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/fxlz2.jpg"
+      }]
+    }, {
+      "id": 38,
+      "name": "圣诞绿蜡烛",
+      "engname": "Green candle",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "12",
+      "weight": "个",
+      "img": "./img/shejishi3.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "gift",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/sdllz1.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/sdllz2.jpg"
+      }, {
+        "img": "./fenleImg/sdllz3.jpg"
+      }, {
+        "img": "./fenleImg/sdllz4.jpg"
+      }]
+    }, {
+      "id": 39,
+      "name": "21cake餐具套餐",
+      "engname": "Tableware package",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "0.5",
+      "weight": "份",
+      "img": "./img/shejishi4.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataOnline": "online",
+      "dataItem": "gift",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./fenleImg/cj1.jpg"
+      }],
+      "show": [{
+        "img": "./fenleImg/cj2.jpg"
+      }]
+    }]
+  },
+  "new": [{
+      "id": 40,
+      "name": "蓝莓丹麦",
+      "engname": "Croissant With Blueberry Jam",
+      "introduce": "21cake「经典款面包持续稳定供应」",
+      "price": "13",
+      "weight": "66g(一个)",
+      "img": "./img/contImg1.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataItem": "new",
+      "dataImg": "./detImgs/lm11.jpg",
+      "Label": [{
+        "label": "null"
+      }],
+      "introduceText": "/金黄，酥脆,内部孔洞均匀舒展/<br>/咬它的口感，像踩在雪上 /<br>/野生蓝莓，手工熬制酱心/<br>/抿一下,蓝莓酱融化在油脂香气中/ ",
+      "lunbo": [{
+        "img": "./detImgs/lm1.jpg"
+      }, {
+        "img": "./detImgs/lm2.jpg"
+      }, {
+        "img": "./detImgs/lm3.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/lm4.jpg"
+      }, {
+        "img": "./detImgs/lm5.jpg"
+      }, {
+        "img": "./detImgs/lm6.jpg"
+      }, {
+        "img": "./detImgs/lm7.jpg"
+      }, {
+        "img": "./detImgs/lm8.jpg"
+      }, {
+        "img": "./detImgs/lm9.jpg"
+      }, {
+        "img": "./detImgs/lm10.jpg"
+      }]
+    },
+    {
+      "id": 41,
+      "name": "(新)卡百利",
+      "engname": "Strawberry Fool",
+      "introduce": "八个风味层次，让草莓果香次第送出",
+      "price": "268",
+      "weight": "454g(1.0磅)",
+      "img": "./img/contImg2.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataItem": "new",
+      "dataImg": "./img/contItem5.jpg",
+      "introduceText": "产品限量，需提前预定",
+      "Label": [{
+        "label": "null"
+      }],
+      "lunbo": [{
+        "img": "./detImgs/ny1.jpg"
+      }, {
+        "img": "./detImgs/ny2.jpg"
+      }, {
+        "img": "./detImgs/ny3.jpg"
+      }, {
+        "img": "./detImgs/ny4.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/ny5.jpg"
+      }, {
+        "img": "./detImgs/ny6.jpg"
+      }, {
+        "img": "./detImgs/ny7.jpg"
+      }, {
+        "img": "./detImgs/ny8.jpg"
+      }, {
+        "img": "./detImgs/ny9.jpg"
+      }, {
+        "img": "./detImgs/ny10.jpg"
+      }, {
+        "img": "./detImgs/ny11.jpg"
+      }, {
+        "img": "./detImgs/ny12.jpg"
+      }, {
+        "img": "./detImgs/ny13.jpg"
+      }, {
+        "img": "./detImgs/ny14.jpg"
+      }]
+    },
+    {
+      "id": 42,
+      "name": "(新)栗蓉暗香 ",
+      "engname": "Chestnut Cream",
+      "introduce": "新栗上市，栗香正浓",
+      "price": "198",
+      "weight": "454g(1.0磅)",
+      "img": "./img/contImg3.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataItem": "new",
+      "dataImg": "./detImgs/lr12.jpg",
+      "Label": [{
+        "label": "null"
+      }],
+      "introduceText": "/栗子烘烤的蛋糕坯，鲜栗蓉，点缀手工比利时黑巧克力豆/<br>Chestnuts and real fresh cream go so well together you know this isn’t going to be a short term dalliance. In fact, one whiff of the aroma of Chestnut Cream and you’ll realize you’re attending their wedding...",
+      "lunbo": [{
+        "img": "./detImgs/lr1.jpg"
+      }, {
+        "img": "./detImgs/lr2.jpg"
+      }, {
+        "img": "./detImgs/lr3.jpg"
+      }, {
+        "img": "./detImgs/lr4.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/lr5.jpg"
+      }, {
+        "img": "./detImgs/lr6.jpg"
+      }, {
+        "img": "./detImgs/lr7.jpg"
+      }, {
+        "img": "./detImgs/lr8.jpg"
+      }, {
+        "img": "./detImgs/lr9.jpg"
+      }, {
+        "img": "./detImgs/lr10.png"
+      }, {
+        "img": "./detImgs/lr11.jpg"
+      }]
+    }
+  ],
+  "Popularity": [{
+      "id": 43,
+      "name": "深爱",
+      "engname": "Deep Bailey Lovers",
+      "introduce": "你深爱过吗？",
+      "price": "268",
+      "weight": "454g(1.0磅)",
+      "img": "./img/contImg5.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataImg": "./detImgs/sa12.jpg",
+      "dataItem": "Popularity",
+      "Label": [{
+        "label": "null"
+      }],
+      "introduceText": "/奶油中调入玫瑰甘露，整体色泽加深/<br>/夹心中增加可咀嚼的玫瑰蜜饯，丰富口感/<br>*玫瑰花瓣经过消毒处理，仅用作装饰使用（使用围边纸与蛋糕隔开），不可食用。<br>1月1日起夹心为草莓。",
+      "lunbo": [{
+        "img": "./detImgs/sa1.jpg"
+      }, {
+        "img": "./detImgs/sa2.jpg"
+      }, {
+        "img": "./detImgs/sa3.jpg"
+      }, {
+        "img": "./detImgs/sa4.jpg"
+      }, {
+        "img": "./detImgs/sa5.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/sa6.jpg"
+      }, {
+        "img": "./detImgs/sa7.jpg"
+      }, {
+        "img": "./detImgs/sa8.jpg"
+      }, {
+        "img": "./detImgs/sa9.jpg"
+      }, {
+        "img": "./detImgs/sa10.jpg"
+      }, {
+        "img": "./detImgs/sa11.jpg"
+      }]
+    },
+    {
+      "id": 44,
+      "name": "芒果奶油",
+      "engname": "Mango Cream Cake",
+      "introduce": "坚持自然成熟，应季鲜切芒果",
+      "price": "198",
+      "weight": "908g(2.0磅)",
+      "img": "./img/contImg6.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataItem": "Popularity",
+      "dataImg": "./detImgs/mg10.jpg",
+      "Label": [{
+        "label": "null"
+      }],
+      "introduceText": "/不使用罐头水果和植混奶油/<br>/坚持自然成熟，应季鲜切芒果/<br>/坚持自然成熟，应季鲜切芒果/<br>/新西兰纯乳脂奶油/<br>/自研芒果百香果慕斯夹心/<br>高价值，平价水果蛋糕，21cake惠客款，不与其他优惠同享。",
+      "lunbo": [{
+        "img": "./detImgs/mg2.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/mg2.jpg"
+      }, {
+        "img": "./detImgs/mg3.jpg"
+      }, {
+        "img": "./detImgs/mg4.jpg"
+      }, {
+        "img": "./detImgs/mg5.jpg"
+      }, {
+        "img": "./detImgs/mg6.jpg"
+      }, {
+        "img": "./detImgs/mg7.jpg"
+      }, {
+        "img": "./detImgs/mg8.png"
+      }, {
+        "img": "./detImgs/mg9.jpg"
+      }]
+    },
+    {
+      "id": 45,
+      "name": "米道",
+      "engname": "Rice Cake",
+      "introduce": "天然、天真是这款蛋糕的唯一出发点",
+      "price": "298",
+      "weight": "454g(1.0磅)",
+      "img": "./img/contImg7.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataItem": "Popularity",
+      "dataImg": "./detImgs/md1.jpg",
+      "Label": [{
+        "label": "null"
+      }],
+      "introduceText": "天真、天然<br>是我们做这款蛋糕唯一的出发点",
+      "lunbo": [{
+        "img": "./detImgs/md1.jpg"
+      }, {
+        "img": "./detImgs/md2.jpg"
+      }, {
+        "img": "./detImgs/md3.jpg"
+      }, {
+        "img": "./detImgs/md4.jpg"
+      }, {
+        "img": "./detImgs/md5.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/md6.jpg"
+      }, {
+        "img": "./detImgs/md7.jpg"
+      }, {
+        "img": "./detImgs/md8.jpg"
+      }, {
+        "img": "./detImgs/md9.jpg"
+      }, {
+        "img": "./detImgs/md10.jpg"
+      }, {
+        "img": "./detImgs/md11.jpg"
+      }, {
+        "img": "./detImgs/md12.jpg"
+      }, {
+        "img": "./detImgs/md13.jpg"
+      }, {
+        "img": "./detImgs/md14.png"
+      }]
+    },
+    {
+      "id": 46,
+      "name": "榴莲飘飘",
+      "engname": "A Picture of Durian Grey",
+      "introduce": "严格捍卫榴莲狂热者的权利",
+      "price": "298",
+      "weight": "908g(2.0磅)",
+      "img": "./img/contImg8.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataItem": "Popularity",
+      "dataImg": "./detImgs/ll11.jpg",
+      "Label": [{
+        "label": "null"
+      }],
+      "introduceText": "/自然成熟的泰国榴莲/<br>/在曼谷，官兵后代庭院中，生长着一百年至一百五十年的榴莲树/<br>Imagine if an object could bear the weight of all your sins, while you swan about ever beautiful. The durian fruit bears the weight of its sins on the outside, in the form of its malodorous stench.",
+      "lunbo": [{
+        "img": "./detImgs/ll1.jpg"
+      }, {
+        "img": "./detImgs/ll2.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/ll3.jpg"
+      }, {
+        "img": "./detImgs/ll4.jpg"
+      }, {
+        "img": "./detImgs/ll5.jpg"
+      }, {
+        "img": "./detImgs/ll6.jpg"
+      }, {
+        "img": "./detImgs/ll7.jpg"
+      }, {
+        "img": "./detImgs/ll8.jpg"
+      }, {
+        "img": "./detImgs/ll9.png"
+      }, {
+        "img": "./detImgs/ll10.jpg"
+      }]
+    }
+  ],
+  "Birthday": [{
+      "id": 47,
+      "name": "朗姆芝士",
+      "engname": "Rum Cheese Cake",
+      "introduce": "香滑的乳酪与波多黎各朗姆酒",
+      "price": "198",
+      "weight": "454g(1.0磅)",
+      "img": "./img/contImg9.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataItem": "Birthday",
+      "dataImg": "./detImgs/zs12.jpg",
+      "Label": [{
+        "label": "null"
+      }],
+      "introduceText": "/香滑的乳酪与打开的一瓶波多黎各朗姆酒/<br>/酒香，微苦，清新的柠檬/<br>Shiver me timbers! Here’s a rum one – but unlike most of its seafaring fellows our rum cheesecake is far from swarthy.",
+      "lunbo": [{
+        "img": "./detImgs/zs1.jpg"
+      }, {
+        "img": "./detImgs/zs2.jpg"
+      }, {
+        "img": "./detImgs/zs3.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/zs4.jpg"
+      }, {
+        "img": "./detImgs/zs5.jpg"
+      }, {
+        "img": "./detImgs/zs6.jpg"
+      }, {
+        "img": "./detImgs/zs7.jpg"
+      }, {
+        "img": "./detImgs/zs8.jpg"
+      }, {
+        "img": "./detImgs/zs9.png"
+      }, {
+        "img": "./detImgs/zs10.png"
+      }, {
+        "img": "./detImgs/zs11.jpg"
+      }]
+    },
+    {
+      "id": 48,
+      "name": "百香果酸乳酪慕斯 ",
+      "engname": "Easycake",
+      "introduce": "冰淇淋口感，不同层次的酸与冰凉",
+      "price": "198",
+      "weight": "454g(1.0磅)",
+      "img": "./img/contImg10.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataItem": "Birthday",
+      "dataImg": "./detImgs/ms11.jpg",
+      "Label": [{
+        "label": "null"
+      }],
+      "introduceText": "/何况它，有超过130种芳香/<br>/除了酸味，百香果是世界上已知，/<br>/充满芳香的水果之一。/<br>/冰淇淋口感，不同层次的酸与冰凉/<b>*本品使用木糖醇代替蔗糖，口感无差别。</b>",
+      "lunbo": [{
+        "img": "./detImgs/ms1.jpg"
+      }, {
+        "img": "./detImgs/ms2.gif"
+      }, {
+        "img": "./detImgs/ms3.jpg"
+      }, {
+        "img": "./detImgs/ms4.jpg"
+      }, {
+        "img": "./detImgs/ms5.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/ms6.jpg"
+      }, {
+        "img": "./detImgs/ms7.jpg"
+      }, {
+        "img": "./detImgs/ms8.jpg"
+      }, {
+        "img": "./detImgs/ms9.jpg"
+      }, {
+        "img": "./detImgs/ms10.png"
+      }]
+    },
+    {
+      "id": 49,
+      "name": "彼尔德(ＨＢＤ)",
+      "engname": "Chocolate Mousse",
+      "introduce": "彼尔德联名款--猪年限定版 ",
+      "price": "198",
+      "weight": "454g(1.0磅)",
+      "img": "./img/contImg11.jpg",
+      "count": 1,
+      "thiscont": 1,
+      "total": 99,
+      "dataItem": "Birthday",
+      "dataImg": "./detImgs/qkl1.jpg",
+      "Label": [{
+        "label": "null"
+      }],
+      "introduceText": "彼尔德联名款--猪年限定版",
+      "lunbo": [{
+        "img": "./detImgs/qkl1.jpg"
+      }, {
+        "img": "./detImgs/qkl2.jpg"
+      }, {
+        "img": "./detImgs/qkl3.jpg"
+      }],
+      "show": [{
+        "img": "./detImgs/qkl4.gif"
+      }, {
+        "img": "./detImgs/qkl5.jpg"
+      }, {
+        "img": "./detImgs/qkl6.png"
+      }]
+    }
+  ]
+}

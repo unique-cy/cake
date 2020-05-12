@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta name="viewport"
+    content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+  <title>蛋糕_网上订购_5小时内新鲜必达</title>
+  <link rel="stylesheet" type="text/css" href="./css/fenlei.css" />
+  <link rel="stylesheet" href="./font/iconfont.css">
+  <link rel="stylesheet" href="swiper-5.3.1/package/css/swiper.min.css">
+  <link rel="stylesheet" href="./public/header.css">
+  <link rel="stylesheet" href="./public/footer.css">
+  <script src="./js/flexible.js"></script>
+  <script src="swiper-5.3.1/package/js/swiper.min.js"></script>
+  <script src="./js/jquery-3.4.1.js"></script>
+  <script src="./public/publicHeader.js"></script>
+</head>
+
+<body>
+  <!-- 分类选项 -->
+  <div class="options">
+    <div class="optionsBox">
+      <ul>
+        <li><a href="#" class="liHover" data-left="0">蛋糕</a></li>
+        <li><a href="#" data-left="0">冰淇淋</a></li>
+        <li><a href="#" data-left="25">咖啡下午茶</a></li>
+        <li><a href="#" data-left="110">面包</a></li>
+        <li><a href="#" data-left="140">常温蛋糕</a></li>
+        <li><a href="#" data-left="140">设计师礼品</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 商品列表 -->
+  <div class="cont">
+    <!-- 蛋糕页面 -->
+    <div class="cont-cake cont-itemIm">
+      <div class="cont-title">
+        <p class="cont-titleP1">蛋糕</p>
+        <p class="cont-titleP2">新鲜乳脂奶油蛋糕</p>
+      </div>
+      <!-- 蛋糕待售产品 -->
+      <div class="cont-text cont-cake-online"></div>
+      <div class="cont-title">
+        <p class="cont-titleP1">季节性下线</p>
+        <p class="cont-titleP2">在合适的季节，吃恰当的食物</p>
+      </div>
+      <!-- 蛋糕下架产品 -->
+      <div class="cont-text  cont-cake-LowerShelf"></div>
+    </div>
+    <!-- 冰淇淋页面 -->
+    <div class="cont-IceCream cont-itemIm" style="display: none;">
+      <div class="cont-title">
+        <p class="cont-titleP1">冰淇淋</p>
+        <p class="cont-titleP2">10天生命的意式杰拉朵冰淇淋</p>
+      </div>
+      <!-- 冰淇淋待售产品 -->
+      <div class="cont-text  cont-IceCream-online"> </div>
+      <div class="cont-title">
+        <p class="cont-titleP1">季节性下线</p>
+        <p class="cont-titleP2">在合适的季节，吃恰当的食物</p>
+      </div>
+      <!-- 冰淇淋下架产品 -->
+      <div class="cont-text  cont-IceCream-LowerShelf"></div>
+    </div>
+    <!-- 咖啡下午茶页面 -->
+    <div class="cont-cafe cont-itemIm" style="display: none;">
+      <div class="cont-title">
+        <p class="cont-titleP1">咖啡</p>
+        <p class="cont-titleP2">挂耳咖啡</p>
+      </div>
+      <!-- 咖啡下午茶待售产品 -->
+      <div class="cont-text cont-AfternoonTea-online"></div>
+      <div class="cont-title">
+        <p class="cont-titleP1">季节性下线</p>
+        <p class="cont-titleP2">在合适的季节，吃恰当的食物</p>
+      </div>
+      <!-- 咖啡下午茶下架产品 -->
+      <div class="cont-text cont-AfternoonTea-LowerShelf"></div>
+    </div>
+    <!-- 面包页面 -->
+    <div class="cont-mianbao cont-itemIm" style="display: none;">
+      <div class="cont-title">
+        <p class="cont-titleP1">面包</p>
+        <p class="cont-titleP2">面包</p>
+      </div>
+      <!-- 面包待售产品 -->
+      <div class="cont-text cont-bread-online"></div>
+    </div>
+    <!-- 常温蛋糕页面 -->
+    <div class="cont-dangao cont-itemIm" style="display: none;">
+      <div class="cont-title">
+        <p class="cont-titleP1">常温蛋糕</p>
+        <p class="cont-titleP2">方便携带，恰到好处的满足</p>
+      </div>
+      <!-- 常温蛋糕待售产品 -->
+      <div class="cont-text cont-NormalTemperatureCake-online"></div>
+    </div>
+    <!-- 设计师礼物 -->
+    <div class="cont-shejishi cont-itemIm" style="display: none;">
+      <div class="cont-title">
+        <p class="cont-titleP1">礼品</p>
+        <p class="cont-titleP2">设计师礼品专区</p>
+      </div>
+      <!-- 设计师礼物待售产品 -->
+      <div class="cont-text cont-gift-online">
+      </div>
+    </div>
+  </div>
+  <!-- 加入购物车的模态框 -->
+  <div class="modalCase">
+    <div class="modalCont">
+      <p>加入购物车成功</p>
+    </div>
+  </div>
+
+  <!-- 引入页脚js -->
+  <script src="./public/publicFooter.js"></script>
+
+  <script src="./js/cartNumJuage.js"></script>
+  <script src="./js/fenlei.js"></script>
+</body>
+
+</html>

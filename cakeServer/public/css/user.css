@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+}
+.userSign {
+  padding-top: 48px;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.userSign .userSignTitle {
+  width: 100%;
+  display: flex;
+  height: 38px;
+  border-bottom: 1px solid #D5D5D5;
+  padding-top: 20px;
+}
+.userSign .userSignTitle .signTitle {
+  font-size: 14px;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  height: 38px;
+  padding: 8px 0;
+  line-height: 20px;
+  color: #969696;
+}
+.userSign .userSignTitle .signTitleClick {
+  color: #000;
+  border-bottom: 1px solid #000000;
+}
+.userSign .Signbox {
+  margin-top: 25px;
+  font-size: 14px;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+.userSign .Signbox .signform {
+  width: 100%;
+  height: 300px;
+}
+.userSign .Signbox .signform li {
+  width: 100%;
+  height: 47px;
+  line-height: 46px;
+  border-bottom: 1px solid #D5D5D5;
+}
+.userSign .Signbox .signform li input {
+  width: 100%;
+  border: none;
+  height: 26px;
+  padding: 10px 0;
+  line-height: 26px;
+  outline: none;
+  font-size: 14px;
+}
+.userSign .Signbox .signform li input::-webkit-input-placeholder {
+  color: #cfb99f;
+  font-size: 14px;
+}
+.userSign .Signbox .signform .err {
+  visibility: visible;
+  visibility: hidden;
+  color: red;
+}
+.userSign .Signbox .signform .phoneLoginLi2 {
+  display: flex;
+}
+.userSign .Signbox .signform .phoneLoginLi2 #password2 {
+  width: 53%;
+}
+.userSign .Signbox .signform .phoneLoginLi2 .phoneLoginVeri {
+  width: 47%;
+  font-size: 14px;
+  text-align: center;
+  line-height: 38px;
+  height: 38px;
+  margin: 4px 0;
+  background: #442818;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+.userSign .Signbox .signform .err {
+  width: 100%;
+  height: 47px;
+  line-height: 46px;
+  font-size: 13px;
+}
+.userSign .Signbox .signform .sign {
+  width: 100%;
+  height: 42px;
+  background: #442818;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+}
+.userSign .Signbox .signform .help {
+  text-align: right;
+  margin-top: 25px;
+  height: 18px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #744F3A;
+}
+.userSign .Signbox .signform .help a {
+  cursor: pointer;
+  color: #442818;
+}
+.Signsuc {
+  padding-top: 48px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.Signsuc p:nth-child(1) {
+  width: 100%;
+  border-bottom: 1px solid #fbeeef;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  color: #8e6a55;
+}
+.Signsuc .person_info {
+  color: #684029;
+  font-size: 14px;
+}
+.Signsuc .person_info .myInfo {
+  text-align: center;
+}
+.Signsuc .person_info .myInfo .mem_logo {
+  margin-top: 23px;
+}
+.Signsuc .person_info .myInfo .mem_logo img {
+  width: 70px;
+  height: 70px;
+}
+.Signsuc .person_info .myInfo .mem_info {
+  list-style: none;
+}
+.Signsuc .person_info .myInfo .mem_info li {
+  height: 25px;
+}
+.Signsuc .person_info .myInfo .mem_info .phone {
+  font-size: 12px;
+  color: #8e6a55;
+  width: 110px;
+  margin: -6px auto 8px;
+  line-height: 28px;
+}
+.Signsuc .person_info .myInfo .mem_info .phone a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #442818;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+.Signsuc .person_info .myInfo .mem_info .modify_info {
+  position: relative;
+  line-height: 24px;
+  max-width: 120px;
+  background: #684029;
+  color: #fff;
+  border: 1px solid #684029;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin: 0 auto;
+  padding: 2px;
+}
+.Signsuc .person_info .activity {
+  border-bottom: 12px solid #f9f9f9;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.Signsuc .person_info .activity ul {
+  list-style: none;
+  width: 50%;
+  height: 50px;
+  margin-top: 20px;
+  border-top: 1px solid #efefef;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-left: 1px solid #efefef;
+}
+.Signsuc .person_info .activity ul li {
+  font-size: 14px;
+}
+.Signsuc .person_info .menu-list {
+  list-style-type: none;
+}
+.Signsuc .person_info .menu-list li {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0 10px 10%;
+  border-bottom: 1px solid #eee;
+}
+.Signsuc .person_info .Advertisement {
+  background: #f6f6f6;
+  display: block;
+  width: 100%;
+  padding: 15px 12px;
+  box-sizing: border-box;
+  text-decoration: none;
+  cursor: pointer;
+  color: #442818;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+.Signsuc .person_info .Advertisement img {
+  display: block;
+  width: 100%;
+}
+.Signsuc .person_info .SignOut {
+  width: 100%;
+  border-bottom: 1px solid #fbeeef;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  color: #8e6a55;
+}
+.modalCont,
+.modalCont-tuichu {
+  z-index: 99998;
+  background-color: #fff;
+  position: fixed;
+  transform: translate(-50%);
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 40px;
+  margin: 0 4%;
+  z-index: 99999;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modalCont p,
+.modalCont-tuichu p {
+  font-size: 14px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+}

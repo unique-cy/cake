@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta name="viewport"
+    content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+  <title>不入流蛋糕官网_24小时蛋糕网上订购_5小时新鲜送达！</title>
+  <link rel="stylesheet" href="./font/iconfont.css">
+  <link rel="stylesheet" href="swiper-5.3.1/package/css/swiper.min.css">
+  <link rel="stylesheet" href="./css/index.css" />
+
+  <link rel="stylesheet" href="./public/header.css">
+  <link rel="stylesheet" href="./public/footer.css">
+  <script src="./js/flexible.js"></script>
+  <script src="swiper-5.3.1/package/js/swiper.min.js"></script>
+  <script src="./js/jquery-3.4.1.js"></script>
+  <script src="./public/publicHeader.js"></script>
+</head>
+
+<body>
+  <!-- 轮播 -->
+  <div class="swiper-container" id="lunbo">
+    <div class="swiper-wrapper ">
+      <div class="swiper-slide"><img src="./img/lunbo1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/lunbo2.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/lunbo3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/lunbo4.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/lunbo5.jpg" alt=""></div>
+    </div>
+    <!-- 分页器 -->
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- 广告 -->
+  <div class="adver">
+    <p class="adver-1"><i class="iconfont icon-tubiao"></i>新客满298元赠送切块蛋糕</p>
+    <p class="adver-2"><i class="iconfont icon-tubiao"></i>满100包邮 </p>
+    <p class="adver-3"><i class="iconfont icon-tubiao"></i>全程冷链配送</p>
+  </div>
+  <!-- 展示 -->
+  <div class="show">
+    <div class="show1 show-item">
+      <div>
+        <div class="show-imgbox"><img src="./img/dangao.png" alt=""></div>
+        <p>蛋糕</p>
+      </div>
+    </div>
+    <div class="show2 show-item">
+      <div>
+        <div class="show-imgbox"><img src="./img/mianbao.png" alt=""></div>
+        <p>面包</p>
+      </div>
+    </div>
+    <div class="show3 show-item">
+      <div>
+        <div class="show-imgbox"><img src="./img/xiawucha.png" alt=""></div>
+        <p>下午茶</p>
+      </div>
+    </div>
+    <div class="show4 show-item">
+      <div>
+        <div class="show-imgbox"><img src="./img/qiyezhuanqu.png" alt=""></div>
+        <p>企业专区</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- 商品列表 -->
+  <div class="cont">
+    <div class="title">
+      <span class="title-span1">新品</span>
+      <span class="title-span2">更多></span>
+    </div>
+    <!-- 新品盒子 -->
+    <div id="cont-newBox"></div>
+    <div class="title">
+      <span class="title-span1">人气</span>
+      <span class="title-span2">更多></span>
+    </div>
+    <!-- 人气盒子 -->
+    <div id="cont-Popularity"></div>
+    <div class="title">
+      <span class="title-span1">生日</span>
+      <span class="title-span2">更多></span>
+    </div>
+    <div id="cont-Birthday"></div>
+    <!-- 活动 -->
+    <div class="title">
+      <span class="title-span1">廿一客·活动</span>
+    </div>
+    <div class="hot">
+      <div class="hot-text">
+        <p class="hot-text1">新客权益</p>
+        <p class="hot-text2">点击查看</p>
+        <p class="hot-text3">只剩315天</p>
+      </div>
+      <div class="hot-img"><img src="./img/xinkezhuanshu.jpg" alt=""></div>
+    </div>
+
+    <!-- slide swiper -->
+    <div class="title">
+      <span class="title-span1">廿一客·文章</span>
+    </div>
+    <div class="swiper-box">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="padding-left:0;">
+          <img src="./img/footer_jinbohui.jpg" alt="">
+          <p>冬季刊·进博会</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/footer_kefu.jpg" alt="">
+          <p>廿一志秋刊·客服Q&A</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/footer_cha.jpg" alt="">
+          <p>春季刊 · 茶</p>
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/footer_sixiang.jpg" alt="">
+          <p>春季刊·私享</p>
+        </div>
+        <div class="swiper-slide swiper-slide-last">
+          <p>查看更多</p>
+        </div>
+      </div>
+      <!-- 如果需要滚动条 -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+
+  </div>
+  <!-- 加入购物车的模态框 -->
+  <div class="modalCase">
+    <div class="modalCont">
+      <p>加入购物车成功</p>
+    </div>
+  </div>
+  <script src="./public/publicFooter.js"></script>
+  <script src=".//js/index.js"></script>
+  <script src="./js/cartNumJuage.js"></script>
+  <script>
+    cartNumJuage();
+    //swiper轮播
+    var mySwiper = new Swiper('.swiper-container', {
+      loop: true, // 循环模式选项
+      autoplay: {
+        delay: 3000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false,
+      },
+      speed: 500,
+      // 如果需要分页器
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      virtual: false,
+    })
+  </script>
+</body>
+
+</html>

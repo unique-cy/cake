@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./js/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+
+  <div>
+    <h1>cake主表</h1>
+    <span>insert into cake values</span>
+    <span class="cakeonline"></span>
+    <span class="cakeLowerShelf"></span>
+    <span class="IceCreamonline"></span>
+    <span class="IceCreamLowerShelf"></span>
+    <span class="AfternoonTeaonline"></span>
+    <span class="AfternoonTeaLowerShelf"></span>
+    <span class="bread"></span>
+    <span class="NormalTemperatureCake"></span>
+    <span class="gift"></span>
+    <span class="new"></span>
+    <span class="Popularity"></span>
+    <span class="Birthday"></span>
+  </div>
+  <div>
+    <h1>轮播图副表</h1>
+    <span>insert into cake values</span>
+    <span class="cakeonline1"></span>
+    <span class="cakeLowerShelf1"></span>
+    <span class="IceCreamonline1"></span>
+    <span class="IceCreamLowerShelf1"></span>
+    <span class="AfternoonTeaonline1"></span>
+    <span class="AfternoonTeaLowerShelf1"></span>
+    <span class="bread1"></span>
+    <span class="NormalTemperatureCake1"></span>
+    <span class="gift1"></span>
+    <span class="new1"></span>
+    <span class="Popularity1"></span>
+    <span class="Birthday1"></span>
+  </div>
+  <div>
+    <h1>标签副表</h1>
+    <span>insert into cake values</span>
+    <span class="cakeonline2"></span>
+    <span class="cakeLowerShelf2"></span>
+    <span class="IceCreamonline2"></span>
+    <span class="IceCreamLowerShelf2"></span>
+    <span class="AfternoonTeaonline2"></span>
+    <span class="AfternoonTeaLowerShelf2"></span>
+    <span class="bread2"></span>
+    <span class="NormalTemperatureCake2"></span>
+    <span class="gift2"></span>
+    <span class="new2"></span>
+    <span class="Popularity2"></span>
+    <span class="Birthday2"></span>
+  </div>
+  <div>
+    <h1>show详情页展示图副表</h1>
+    <span>insert into cake values</span>
+    <span class="cakeonline3"></span>
+    <span class="cakeLowerShelf3"></span>
+    <span class="IceCreamonline3"></span>
+    <span class="IceCreamLowerShelf3"></span>
+    <span class="AfternoonTeaonline3"></span>
+    <span class="AfternoonTeaLowerShelf3"></span>
+    <span class="bread3"></span>
+    <span class="NormalTemperatureCake3"></span>
+    <span class="gift3"></span>
+    <span class="new3"></span>
+    <span class="Popularity3"></span>
+    <span class="Birthday3"></span>
+  </div>
+  <script>
+    $.ajax({
+      type: "get",
+      url: "../text.json",
+      dataType: "json",
+      success: function (res) {
+        var arr1 = res.cake.online,
+          arr2 = res.cake.LowerShelf,
+          arr3 = res.IceCream.online,
+          arr4 = res.IceCream.LowerShelf,
+          arr5 = res.AfternoonTea.online,
+          arr6 = res.AfternoonTea.LowerShelf,
+          arr7 = res.bread.online,
+          arr8 = res.NormalTemperatureCake.online,
+          arr9 = res.gift.online,
+          arr10 = res.new,
+          arr11 = res.Popularity,
+          arr12 = res.Birthday,
+          html1 = '',
+          html2 = '',
+          html3 = '',
+          html4 = '',
+          html5 = '',
+          html6 = '',
+          html7 = '',
+          html8 = '',
+          html9 = '',
+          html10 = '',
+          html11 = '',
+          html12 = '',
+          lunbohtml1 = '',
+          lunbohtml2 = '',
+          lunbohtml3 = '',
+          lunbohtml4 = '',
+          lunbohtml5 = '',
+          lunbohtml6 = '',
+          lunbohtml7 = '',
+          lunbohtml8 = '',
+          lunbohtml9 = '',
+          lunbohtml10 = '',
+          lunbohtml11 = '',
+          lunbohtml12 = '',
+          lablehtml1 = '',
+          lablehtml2 = '',
+          lablehtml3 = '',
+          lablehtml4 = '',
+          lablehtml5 = '',
+          lablehtml6 = '',
+          lablehtml7 = '',
+          lablehtml8 = '',
+          lablehtml9 = '',
+          lablehtml10 = '',
+          lablehtml11 = '',
+          lablehtml12 = '';
+        showhtml1 = '',
+          showhtml2 = '',
+          showhtml3 = '',
+          showhtml4 = '',
+          showhtml5 = '',
+          showhtml6 = '',
+          showhtml7 = '',
+          showhtml8 = '',
+          showhtml9 = '',
+          showhtml10 = '',
+          showhtml11 = '',
+          showhtml12 = '';
+        for (let i = 0; i < arr1.length; i++) {
+          html1 +=
+            `(${arr1[i].id},'${arr1[i].name}','${arr1[i].engname}','${arr1[i].introduce}',${arr1[i].price},'${arr1[i].weight}','${arr1[i].img}','${arr1[i].posiImg}',${arr1[i].count},${arr1[i].thiscont},${arr1[i].total},'${arr1[i].dataOnline}','${arr1[i].dataItem}','${arr1[i].introduceText}'),`;
+          //轮播
+          var lunbo = arr1[i].lunbo;
+          for (let j = 0; j < lunbo.length; j++) {
+            lunbohtml1 += `(${arr1[i].id},'${lunbo[j].img}'),`
+          }
+          //标签
+          var lable = arr1[i].Label;
+          for (let k = 0; k < lable.length; k++) {
+            lablehtml1 += `(${arr1[i].id},'${lable[k].label}'),`
+          }
+          //show详情页展示图片
+          var show = arr1[i].show;
+          for (let l = 0; l < show.length; l++) {
+            showhtml1 += `(${arr1[i].id},'${show[l].img}'),`
+          }
+        }
+        $('.cakeonline').text(html1);
+        $('.cakeonline1').text(lunbohtml1);
+        $('.cakeonline2').text(lablehtml1);
+        $('.cakeonline3').text(showhtml1);
+
+        for (let i = 0; i < arr2.length; i++) {
+          html2 +=
+            `(${arr2[i].id},'${arr2[i].name}','${arr2[i].engname}','${arr2[i].introduce}',${arr2[i].price},'${arr2[i].weight}','${arr2[i].img}','${arr2[i].posiImg}',${arr2[i].count},${arr2[i].thiscont},${arr2[i].total},'${arr2[i].dataOnline}','${arr2[i].dataItem}','${arr2[i].introduceText}'),`;
+          //轮播
+          var lunbo = arr2[i].lunbo;
+          for (let j = 0; j < lunbo.length; j++) {
+            lunbohtml2 += `(${arr2[i].id},'${lunbo[j].img}'),`
+          }
+          //标签
+          var lable = arr2[i].Label;
+          for (let k = 0; k < lable.length; k++) {
+            lablehtml2 += `(${arr2[i].id},'${lable[k].label}'),`
+          }
+          //show详情页展示图片
+          var show = arr2[i].show;
+          for (let l = 0; l < show.length; l++) {
+            showhtml2 += `(${arr2[i].id},'${show[l].img}'),`
+          }
+        }
+        $('.cakeLowerShelf').text(html2);
+        $('.cakeLowerShelf1').text(lunbohtml2);
+        $('.cakeLowerShelf2').text(lablehtml2);
+        $('.cakeLowerShelf3').text(showhtml2);
+
+        for (let i = 0; i < arr3.length; i++) {
+          html3 +=
+            `(${arr3[i].id},'${arr3[i].name}','${arr3[i].engname}','${arr3[i].introduce}',${arr3[i].price},'${arr3[i].weight}','${arr3[i].img}','${arr3[i].posiImg}',${arr3[i].count},${arr3[i].thiscont},${arr3[i].total},'${arr3[i].dataOnline}','${arr3[i].dataItem}','${arr3[i].introduceText}'),`;
+          //轮播
+          var lunbo = arr3[i].lunbo;
+          for (let j = 0; j < lunbo.length; j++) {
+            lunbohtml3 += `(${arr3[i].id},'${lunbo[j].img}'),`
+          }
+          //标签
+          var lable = arr3[i].Label;
+          for (let k = 0; k < lable.length; k++) {
+            lablehtml3 += `(${arr3[i].id},'${lable[k].label}'),`
+          }
+          //show详情页展示图片
+          var show = arr3[i].show;
+          for (let l = 0; l < show.length; l++) {
+            showhtml3 += `(${arr3[i].id},'${show[l].img}'),`
+          }
+        }
+        $('.IceCreamonline').text(html3);
+        $('.IceCreamonline1').text(lunbohtml3);
+        $('.IceCreamonline2').text(lablehtml3);
+        $('.IceCreamonline3').text(showhtml3);
+
+        for (let i = 0; i < arr4.length; i++) {
+          html4 +=
+            `(${arr4[i].id},'${arr4[i].name}','${arr4[i].engname}','${arr4[i].introduce}',${arr4[i].price},'${arr4[i].weight}','${arr4[i].img}','${arr4[i].posiImg}',${arr4[i].count},${arr4[i].thiscont},${arr4[i].total},'${arr4[i].dataOnline}','${arr4[i].dataItem}','${arr4[i].introduceText}'),`;
+          //轮播
+          var lunbo = arr4[i].lunbo;
+          for (let j = 0; j < lunbo.length; j++) {
+            lunbohtml4 += `(${arr4[i].id},'${lunbo[j].img}'),`
+          }
+          //标签
+          var lable = arr4[i].Label;
+          for (let k = 0; k < lable.length; k++) {
+            lablehtml4 += `(${arr4[i].id},'${lable[k].label}'),`
+          }
+          //show详情页展示图片
+          var show = arr4[i].show;
+          for (let l = 0; l < show.length; l++) {
+            showhtml4 += `(${arr4[i].id},'${show[l].img}'),`
+          }
+        }
+        $('.IceCreamLowerShelf').text(html4);
+        $('.IceCreamLowerShelf1').text(lunbohtml4);
+        $('.IceCreamLowerShelf2').text(lablehtml4);
+        $('.IceCreamLowerShelf3').text(showhtml4);
+
+        for (let i = 0; i < arr5.length; i++) {
+          html5 +=
+            `(${arr5[i].id},'${arr5[i].name}','${arr5[i].engname}','${arr5[i].introduce}',${arr5[i].price},'${arr5[i].weight}','${arr5[i].img}','${arr5[i].posiImg}',${arr5[i].count},${arr5[i].thiscont},${arr5[i].total},'${arr5[i].dataOnline}','${arr5[i].dataItem}','${arr5[i].introduceText}'),`;
+          //轮播
+          var lunbo = arr5[i].lunbo;
+          for (let j = 0; j < lunbo.length; j++) {
+            lunbohtml5 += `(${arr5[i].id},'${lunbo[j].img}'),`
+          }
+          //标签
+          var lable = arr5[i].Label;
+          for (let k = 0; k < lable.length; k++) {
+            lablehtml5 += `(${arr5[i].id},'${lable[k].label}'),`
+          }
+          //show详情页展示图片
+          var show = arr5[i].show;
+          for (let l = 0; l < show.length; l++) {
+            showhtml5 += `(${arr5[i].id},'${show[l].img}'),`
+          }
+        }
+        $('.AfternoonTeaonline').text(html5);
+        $('.AfternoonTeaonline1').text(lunbohtml5);
+        $('.AfternoonTeaonline2').text(lablehtml5);
+        $('.AfternoonTeaonline3').text(showhtml5);
+
+        for (let i = 0; i < arr6.length; i++) {
+          html6 +=
+            `(${arr6[i].id},'${arr6[i].name}','${arr6[i].engname}','${arr6[i].introduce}',${arr6[i].price},'${arr6[i].weight}','${arr6[i].img}','${arr6[i].posiImg}',${arr6[i].count},${arr6[i].thiscont},${arr6[i].total},'${arr6[i].dataOnline}','${arr6[i].dataItem}','${arr6[i].introduceText}'),`;
+          //轮播
+          var lunbo = arr6[i].lunbo;
+          for (let j = 0; j < lunbo.length; j++) {
+            lunbohtml6 += `(${arr6[i].id},'${lunbo[j].img}'),`
+          }
+          //标签
+          var lable = arr6[i].Label;
+          for (let k = 0; k < lable.length; k++) {
+            lablehtml6 += `(${arr6[i].id},'${lable[k].label}'),`
+          }
+          //show详情页展示图片
+          var show = arr6[i].show;
+          for (let l = 0; l < show.length; l++) {
+            showhtml6 += `(${arr6[i].id},'${show[l].img}'),`
+          }
+        }
+        $('.AfternoonTeaLowerShelf').text(html6);
+        $('.AfternoonTeaLowerShelf1').text(lunbohtml6);
+        $('.AfternoonTeaLowerShelf2').text(lablehtml6);
+        $('.AfternoonTeaLowerShelf3').text(showhtml6);
+
+        for (let i = 0; i < arr7.length; i++) {
+          html7 +=
+            `(${arr7[i].id},'${arr7[i].name}','${arr7[i].engname}','${arr7[i].introduce}',${arr7[i].price},'${arr7[i].weight}','${arr7[i].img}','${arr7[i].posiImg}',${arr7[i].count},${arr7[i].thiscont},${arr7[i].total},'${arr7[i].dataOnline}','${arr7[i].dataItem}','${arr7[i].introduceText}'),`;
+          //轮播
+          var lunbo = arr7[i].lunbo;
+          for (let j = 0; j < lunbo.length; j++) {
+            lunbohtml7 += `(${arr7[i].id},'${lunbo[j].img}'),`
+          }
+          //标签
+          var lable = arr7[i].Label;
+          for (let k = 0; k < lable.length; k++) {
+            lablehtml7 += `(${arr7[i].id},'${lable[k].label}'),`
+          }
+          //show详情页展示图片
+          var show = arr7[i].show;
+          for (let l = 0; l < show.length; l++) {
+            showhtml7 += `(${arr7[i].id},'${show[l].img}'),`
+          }
+        }
+        $('.bread').text(html7);
+        $('.bread1').text(lunbohtml7);
+        $('.bread2').text(lablehtml7);
+        $('.bread3').text(showhtml7);
+
+        for (let i = 0; i < arr8.length; i++) {
+          html8 +=
+            `(${arr8[i].id},'${arr8[i].name}','${arr8[i].engname}','${arr8[i].introduce}',${arr8[i].price},'${arr8[i].weight}','${arr8[i].img}','${arr8[i].posiImg}',${arr8[i].count},${arr8[i].thiscont},${arr8[i].total},'${arr8[i].dataOnline}','${arr8[i].dataItem}','${arr8[i].introduceText}'),`;
+          //轮播
+          var lunbo = arr8[i].lunbo;
+          for (let j = 0; j < lunbo.length; j++) {
+            lunbohtml8 += `(${arr8[i].id},'${lunbo[j].img}'),`
+          }
+          //标签
+          var lable = arr8[i].Label;
+          for (let k = 0; k < lable.length; k++) {
+            lablehtml8 += `(${arr8[i].id},'${lable[k].label}'),`
+          }
+          //show详情页展示图片
+          var show = arr8[i].show;
+          for (let l = 0; l < show.length; l++) {
+            showhtml8 += `(${arr8[i].id},'${show[l].img}'),`
+          }
+        }
+        $('.NormalTemperatureCake').text(html8);
+        $('.NormalTemperatureCake1').text(lunbohtml8);
+        $('.NormalTemperatureCake2').text(lablehtml8);
+        $('.NormalTemperatureCake3').text(showhtml8);
+
+        for (let i = 0; i < arr9.length; i++) {
+          html9 +=
+            `(${arr9[i].id},'${arr9[i].name}','${arr9[i].engname}','${arr9[i].introduce}',${arr9[i].price},'${arr9[i].weight}','${arr9[i].img}','${arr9[i].posiImg}',${arr9[i].count},${arr9[i].thiscont},${arr9[i].total},'${arr9[i].dataOnline}','${arr9[i].dataItem}','${arr9[i].introduceText}'),`;
+          //轮播
+          var lunbo = arr9[i].lunbo;
+          for (let j = 0; j < lunbo.length; j++) {
+            lunbohtml9 += `(${arr9[i].id},'${lunbo[j].img}'),`
+          }
+          //标签
+          var lable = arr9[i].Label;
+          for (let k = 0; k < lable.length; k++) {
+            lablehtml9 += `(${arr9[i].id},'${lable[k].label}'),`
+          }
+          //show详情页展示图片
+          var show = arr9[i].show;
+          for (let l = 0; l < show.length; l++) {
+            showhtml9 += `(${arr9[i].id},'${show[l].img}'),`
+          }
+        }
+        $('.gift').text(html9);
+        $('.gift1').text(lunbohtml9);
+        $('.gift2').text(lablehtml9);
+        $('.gift3').text(showhtml9);
+
+        for (let i = 0; i < arr10.length; i++) {
+          html10 +=
+            `(${arr10[i].id},'${arr10[i].name}','${arr10[i].engname}','${arr10[i].introduce}',${arr10[i].price},'${arr10[i].weight}','${arr10[i].img}','${arr10[i].posiImg}',${arr10[i].count},${arr10[i].thiscont},${arr10[i].total},'${arr10[i].dataOnline}','${arr10[i].dataItem}','${arr10[i].introduceText}'),`;
+          //轮播
+          var lunbo = arr10[i].lunbo;
+          for (let j = 0; j < lunbo.length; j++) {
+            lunbohtml10 += `(${arr10[i].id},'${lunbo[j].img}'),`
+          }
+          //标签
+          var lable = arr10[i].Label;
+          for (let k = 0; k < lable.length; k++) {
+            lablehtml10 += `(${arr10[i].id},'${lable[k].label}'),`
+          }
+          //show详情页展示图片
+          var show = arr10[i].show;
+          for (let l = 0; l < show.length; l++) {
+            showhtml10 += `(${arr10[i].id},'${show[l].img}'),`
+          }
+        }
+        $('.new').text(html10);
+        $('.new1').text(lunbohtml10);
+        $('.new2').text(lablehtml10);
+        $('.new3').text(showhtml10);
+
+        for (let i = 0; i < arr11.length; i++) {
+          html11 +=
+            `(${arr11[i].id},'${arr11[i].name}','${arr11[i].engname}','${arr11[i].introduce}',${arr11[i].price},'${arr11[i].weight}','${arr11[i].img}','${arr11[i].posiImg}',${arr11[i].count},${arr11[i].thiscont},${arr11[i].total},'${arr11[i].dataOnline}','${arr11[i].dataItem}','${arr11[i].introduceText}'),`;
+          //轮播
+          var lunbo = arr11[i].lunbo;
+          for (let j = 0; j < lunbo.length; j++) {
+            lunbohtml11 += `(${arr11[i].id},'${lunbo[j].img}'),`
+          }
+          //标签
+          var lable = arr11[i].Label;
+          for (let k = 0; k < lable.length; k++) {
+            lablehtml11 += `(${arr11[i].id},'${lable[k].label}'),`
+          }
+          //show详情页展示图片
+          var show = arr11[i].show;
+          for (let l = 0; l < show.length; l++) {
+            showhtml11 += `(${arr11[i].id},'${show[l].img}'),`
+          }
+        }
+        $('.Popularity').text(html11);
+        $('.Popularity1').text(lunbohtml11);
+        $('.Popularity2').text(lablehtml11);
+        $('.Popularity3').text(showhtml11);
+
+        for (let i = 0; i < arr12.length; i++) {
+          html12 +=
+            `(${arr12[i].id},'${arr12[i].name}','${arr12[i].engname}','${arr12[i].introduce}',${arr12[i].price},'${arr12[i].weight}','${arr12[i].img}','${arr12[i].posiImg}',${arr12[i].count},${arr12[i].thiscont},${arr12[i].total},'${arr12[i].dataOnline}','${arr12[i].dataItem}','${arr12[i].introduceText}'),`;
+          //轮播
+          var lunbo = arr12[i].lunbo;
+          for (let j = 0; j < lunbo.length; j++) {
+            lunbohtml12 += `(${arr12[i].id},'${lunbo[j].img}'),`
+          }
+          //标签
+          var lable = arr12[i].Label;
+          for (let k = 0; k < lable.length; k++) {
+            lablehtml12 += `(${arr12[i].id},'${lable[k].label}'),`
+          }
+          //show详情页展示图片
+          var show = arr12[i].show;
+          for (let l = 0; l < show.length; l++) {
+            showhtml12 += `(${arr12[i].id},'${show[l].img}'),`
+          }
+        }
+        $('.Birthday').text(html12);
+        $('.Birthday1').text(lunbohtml12);
+        $('.Birthday2').text(lablehtml12);
+        $('.Birthday3').text(showhtml12);
+      }
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta name="viewport"
+    content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+  <title>蛋糕官网_24小时蛋糕网上订购_5小时新鲜送达！</title>
+  <link rel="stylesheet" href="../css/coupon.css">
+  <link rel="stylesheet" href="./font/iconfont.css">
+  <link rel="stylesheet" href="./public/header.css">
+  <link rel="stylesheet" href="./public/footer.css">
+  <script src="./js/jquery-3.4.1.js"></script>
+  <script src="./js/flexible.js"></script>
+</head>
+
+<body>
+  <!-- 顶部 -->
+  <div class="header">
+    <div class="headerBox">
+      <div class="destination"><i class="iconfont icon-tianchongxing-" id="myOptionC"></i><span> <i
+            class="iconfont icon-dingwei"></i>
+          上海</span> </div>
+      <div class="homePage"><img src="../img/nav.png" alt=""></div>
+      <div class="shopping">
+        <a href="user.html"><i class="iconfont icon-duihua"></i></a>
+        <a href="shopCar.html"><i class="iconfont icon-ziyuan"></i> <span id="cartNum"></span></a>
+      </div>
+    </div>
+  </div>
+  <!-- 内容 -->
+  <div class="container">
+    <div class="balance-list">
+      <div class="balance-top-title"></div>
+      <div class="list-content">
+        <ul class="balance-list-title">
+          <li class="time">金额</li>
+          <li class="event">优惠券/会员卡名称</li>
+          <li class="deposit">限制条件</li>
+        </ul>
+        <div class="content">
+          <ul class="balance-list-content">
+            <p class="balance-list-contentNone">暂时没有优惠券~</p>
+          </ul>
+          <!-- <ul class="balance-list-content">
+            <li class="time">￥500000.00</li>
+            <li class="event">VVVVVVIP优惠券</li>
+            <li class="deposit">
+              <p>.金额需满:1000</p>
+              <p>.限2050/01/01年前使用</p>
+              <p>.限账户名为adimn使用</p>
+            </li>
+          </ul> -->
+        </div>
+
+      </div>
+
+    </div>
+    <div class="page-box"></div>
+  </div>
+</body>
+
+<script src="./js/cartNumJuage.js"></script>
+<!-- <script src="./js/balance.js"></script> -->
+<script src="./js/coupon.js"></script>
+
+<script>
+  cartNumJuage();
+</script>
+
+</html>

@@ -1,0 +1,18 @@
+id：id值
+name：名字
+engname：英文名
+introduce：主页推荐介绍
+price：商品价格
+weight：规格
+img：展示图片
+posiImg：左上角展示图标
+count：默认数量
+thiscont：当前数量
+total：库存
+dataOnline：
+	online：在线待售
+	LowerShelf：季节性下架
+introduceText：详情内页商品介绍
+Label：详情页小标签
+lunbo：详情内页轮播图图片
+show：详情内页商品详情图图片

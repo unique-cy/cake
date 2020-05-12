@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+  <%- include ../common/header.html%>
+
+<body class="header-fixed">
+  <div class="page-wrapper">
+    <%- include ../common/top.html%>
+
+    <div class="main-container">
+        <%- include ../common/left.html%>
+
+        <div class="content">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="card">
+                      <h3 class="card-header bg-light">
+                          新品 
+                      </h3>
+
+                      <div class="card-body">
+                          <div class="table-responsive">
+                              <table class="table table-hover table-bordered">
+                                  <thead>
+                                  <tr>
+                                    <th>序号ID</th>
+                                    <th>名字</th>
+                                    <th>介绍</th>
+                                    <th>价格</th>
+                                    <th>图片</th>
+                                  </tr>
+                                  </thead>
+                                  <tbody>
+                                    <% for(var i=0;i<newArr.length;i++){%>
+                                  <tr>
+                                      <th scope="row"><%= newArr[i].id%></th>
+                                      <td scope="row"><%= newArr[i].name%></td>
+                                      <td scope="row"><%= newArr[i].introduce%></td>
+                                      <td><%= newArr[i].price%></td>
+                                      <td>
+                                        <img src="<%= newArr[i].img%>" alt="" width="80" height="50">
+                                      </td>
+                                  </tr>
+                                   <% }%>
+                                  </tbody>
+                              </table>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+          <div class="footer">
+            <h4 class="text-center">Copyright &copy; 2020.Company name All rights reserved.陈勇</h4>
+         </div>
+      </div>
+    </div>
+</div>
+
+<script src="./vendor/jquery/jquery.min.js"></script>
+<script src="./vendor/popper.js/popper.min.js"></script>
+<script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="./vendor/chart.js/chart.min.js"></script>
+<script src="./js/carbon.js"></script>
+<script src="./js/demo.js"></script>
+</body>
+</html>
